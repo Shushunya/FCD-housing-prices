@@ -1,7 +1,8 @@
 import logging
-import pandas as pd
 from pathlib import Path
-from typing import Union, List, Optional
+from typing import List, Optional, Union
+
+import pandas as pd
 
 # Configure logging
 logging.basicConfig(
@@ -20,12 +21,38 @@ class DataLoader:
         if not self.filepath.exists():
             raise FileNotFoundError(f"The file {self.filepath} was not found.")
 
-    def load_dataset(self, features: Optional[List[str]] = None) -> pd.DataFrame:
+    def load_dataset(
+        self,
+        features: Optional[List[str]] = None,
+        exclude_column: str = "municipality",
+        exclude_values: Optional[List[str]] = None,
+    ) -> pd.DataFrame:
         """
-        Loads the dataset, optionally filtering for specific features.
+        Loads the dataset, optionally filtering columns and excluding specific rows.
+
+        Args:
+            features: List of columns to keep.
+            exclude_column: The column to check for exclusions (default: "municipality").
+            exclude_values: List of values to drop (e.g., ["Lisboa", "Porto"]).
         """
         try:
             df = pd.read_csv(self.filepath)
+
+            if exclude_values:
+                if exclude_column not in df.columns:
+                    raise ValueError(
+                        f"Exclusion column '{exclude_column}' not found in dataset."
+                    )
+
+                initial_count = len(df)
+                # Filter out rows where the column value is in the exclude list
+                df = df[~df[exclude_column].isin(exclude_values)]
+
+                dropped_count = initial_count - len(df)
+                if dropped_count > 0:
+                    logger.info(
+                        f"Excluded {dropped_count} rows matching {exclude_values} in '{exclude_column}'."
+                    )
 
             if features:
                 df = self._select_features(df, features)
@@ -37,43 +64,43 @@ class DataLoader:
             raise
 
     def get_data_for_year(
-        self, year: int, date_column: str = "year", features: Optional[List[str]] = None
+        self,
+        year: int,
+        date_column: str = "year",
+        features: Optional[List[str]] = None,
+        exclude_column: str = "municipality",
+        exclude_values: Optional[List[str]] = None,
     ) -> pd.DataFrame:
         """
-        Filters data by year, then returns only the requested features.
-
-        Args:
-            year: The target year (int).
-            date_column: The name of the column to filter by (default 'year').
-            features: The list of columns to return. The 'year' column does NOT need to be in this list.
+        Filters data by year, handles exclusions, then returns requested features.
         """
         try:
-            # 1. Load FULL dataset first (so we have the 'year' column available for filtering)
             df = pd.read_csv(self.filepath)
 
-            # 2. Validation
             if date_column not in df.columns:
-                raise ValueError(
-                    f"Filtering column '{date_column}' not found in dataset."
-                )
+                raise ValueError(f"Filtering column '{date_column}' not found.")
 
-            # 3. Filter Rows
-            filtered_df = df[df[date_column] == year].copy()
+            df = df[df[date_column] == year].copy()
 
-            if filtered_df.empty:
+            if df.empty:
                 logger.warning(f"No data found for year {year}.")
-                # Return empty DF with requested columns (or all if none requested)
                 cols = features if features else df.columns
                 return pd.DataFrame(columns=cols)
 
-            # 4. Select Columns (The clean-up step)
-            # If 'features' is provided, we subset now.
-            # This allows you to exclude 'year' from the final result.
-            if features:
-                filtered_df = self._select_features(filtered_df, features)
+            if exclude_values:
+                if exclude_column not in df.columns:
+                    raise ValueError(f"Exclusion column '{exclude_column}' not found.")
 
-            logger.info(f"Retrieved {len(filtered_df)} rows for year {year}.")
-            return filtered_df
+                df = df[~df[exclude_column].isin(exclude_values)]
+                logger.info(
+                    f"Year {year}: Excluded {len(exclude_values)} specific values from '{exclude_column}'."
+                )
+
+            if features:
+                df = self._select_features(df, features)
+
+            logger.info(f"Retrieved {len(df)} rows for year {year}.")
+            return df
 
         except Exception as e:
             logger.error(f"Failed to get data for year {year}: {e}")
