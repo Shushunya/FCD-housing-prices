@@ -3,31 +3,29 @@
 Contributors: Oleksandra Chernenko and Goncalo Marques 
 
 ## Project structure (draft)
-
 house-pricing-project/
 ├── data/
-│   ├── raw/                  # Original immutable datasets
-│   ├── external/             # Data fetched from APIs (Weather, Maps)
-│   ├── interm/               # Intermediate data
-│   └── processed/            # Final datasets for modeling
-├── models/                   # Saved .pkl/.joblib model files 
-│   ├── cluster_model.pkl     # Saved K-Means model
-│   └── housing_lin_reg.pkl   # Saved Linear Regression model
-├── notebooks/
-│   ├── eda.ipynb
-│   ├── clustering.ipynb
-│   └── modeling.ipynb
-├── src/
-│   ├── __init__.py
-│   ├── data/
-│   │   ├── make_dataset.py
-│   │   └── api_fetcher.py
-│   ├── features/
-│   │   ├── build_features.py
-│   │   └── clustering.py
-│   └── models/               # Code to TRAIN the models
-│       ├── train_model.py
-│       └── predict_model.py
+│   ├── api/                  # Data fetched from APIs (Weather, Maps)
+│   ├── interm/             # Intermediate datasets
+│   ├── processed/               # Final datasets for modeling
+│   └── raw/            # Original immutable datasets
+├── models/                   # Saved .pkl/.joblib model files 
+│   └── housing_lin_reg.pkl   # Saved Linear Regression model
+├── code/
+|   ├── notebooks/
+|   ├── src/
+|   |   ├── data/
+|   |   ├── features/
+|   |   ├── __init__.py
+|   |   └── config.py
+|   ├── clustering.ipynb
+|   ├── eda.ipynb
+|   ├── main.ipynb
+|   └── modeling.ipynb
 ├── pyproject.toml
+├── final_report.ipynb
 ├── uv.lock
+├── .gitignore
+├── .python-version
+├── LICENSE.MD
 └── README.md
