@@ -1,2 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+*.egg-info/
+*.egg
+
+# Specific files and folders to ignore as requested
+venv/
 .venv/
+models/
 uv.lock
+
+# Virtual environment files (standard exclusions)
+ENV/
+env/
+/venv
+/env
+pip-log.txt
+pip-delete-this-file.txt
+
+# Installer logs
+*.log
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# IDE and editor files (common examples)
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
