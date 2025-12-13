@@ -16,3 +16,10 @@ dependencies = [
     "seaborn>=0.13.2",
     "tqdm>=4.67.1",
 ]
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]  # This tells it to find packages starting from root
+include = ["src*"]
