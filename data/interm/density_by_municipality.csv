@@ -1,0 +1,1541 @@
+year,municipality,people/km2
+2019,Abrantes,48.9
+2019,Águeda,137.8
+2019,Aguiar da Beira,26.0
+2019,Alandroal,9.4
+2019,Albergaria-a-Velha,156.4
+2019,Albufeira,316.1
+2019,Alcácer do Sal,7.6
+2019,Alcanena,98.7
+2019,Alcobaça,133.7
+2019,Alcochete,147.9
+2019,Alcoutim,4.5
+2019,Alenquer,143.8
+2019,Alfândega da Fé,13.8
+2019,Alijó,35.6
+2019,Aljezur,18.3
+2019,Aljustrel,19.3
+2019,Almada,2539.7
+2019,Almeida,11.5
+2019,Almeirim,99.4
+2019,Almodôvar,8.7
+2019,Alpiarça,72.4
+2019,Alter do Chão,8.6
+2019,Alvaiázere,39.1
+2019,Alvito,8.5
+2019,Amadora,7292.4
+2019,Amarante,173.6
+2019,Amares,225.4
+2019,Anadia,127.1
+2019,Angra do Heroísmo,142.0
+2019,Ansião,66.6
+2019,Arcos de Valdevez,46.6
+2019,Arganil,33.4
+2019,Armamar,48.8
+2019,Arouca,64.7
+2019,Arraiolos,9.7
+2019,Arronches,9.1
+2019,Arruda dos Vinhos,177.0
+2019,Aveiro,412.8
+2019,Avis,6.3
+2019,Azambuja,81.3
+2019,Baião,102.1
+2019,Barcelos,308.6
+2019,Barrancos,9.2
+2019,Barreiro,2165.3
+2019,Batalha,149.3
+2019,Beja,29.6
+2019,Belmonte,51.9
+2019,Benavente,55.9
+2019,Bombarral,136.4
+2019,Borba,44.8
+2019,Boticas,15.8
+2019,Braga,1050.6
+2019,Bragança,29.8
+2019,Cabeceiras de Basto,64.6
+2019,Cadaval,75.6
+2019,Caldas da Rainha,198.9
+2019,Calheta [R.A.A.],27.5
+2019,Calheta [R.A.M.],96.9
+2019,Câmara de Lobos,615.5
+2019,Caminha,116.0
+2019,Campo Maior,33.0
+2019,Cantanhede,88.1
+2019,Carrazeda de Ansiães,20.1
+2019,Carregal do Sal,78.1
+2019,Cartaxo,145.3
+2019,Cascais,2206.2
+2019,Castanheira de Pêra,40.7
+2019,Castelo Branco,36.7
+2019,Castelo de Paiva,136.2
+2019,Castelo de Vide,11.9
+2019,Castro Daire,36.5
+2019,Castro Marim,21.4
+2019,Castro Verde,12.3
+2019,Celorico da Beira,26.9
+2019,Celorico de Basto,97.8
+2019,Chamusca,11.6
+2019,Chaves,63.9
+2019,Cinfães,75.1
+2019,Coimbra,447.3
+2019,Condeixa-a-Nova,121.0
+2019,Constância,47.5
+2019,Coruche,15.8
+2019,Corvo,22.2
+2019,Covilhã,84.8
+2019,Crato,8.2
+2019,Cuba,25.6
+2019,Elvas,33.2
+2019,Entroncamento,1455.6
+2019,Espinho,1484.6
+2019,Esposende,365.3
+2019,Estarreja,242.9
+2019,Estremoz,24.9
+2019,Évora,41.5
+2019,Fafe,221.7
+2019,Faro,335.8
+2019,Felgueiras,485.6
+2019,Ferreira do Alentejo,11.8
+2019,Ferreira do Zêzere,41.0
+2019,Figueira da Foz,155.5
+2019,Figueira de Castelo Rodrigo,10.4
+2019,Figueiró dos Vinhos,30.9
+2019,Fornos de Algodres,33.9
+2019,Freixo de Espada à Cinta,13.7
+2019,Fronteira,11.9
+2019,Funchal,1390.3
+2019,Fundão,38.0
+2019,Gavião,11.6
+2019,Góis,14.6
+2019,Golegã,63.9
+2019,Gondomar,1249.0
+2019,Gouveia,41.0
+2019,Grândola,16.8
+2019,Guarda,56.8
+2019,Guimarães,651.7
+2019,Horta,82.9
+2019,Idanha-a-Nova,6.0
+2019,Ílhavo,528.6
+2019,Lagoa,265.5
+2019,Lagoa [R.A.A.],309.5
+2019,Lagos,155.0
+2019,Lajes das Flores,20.2
+2019,Lajes do Pico,28.1
+2019,Lamego,148.5
+2019,Leiria,226.7
+2019,Lisboa,5613.0
+2019,Loulé,94.4
+2019,Loures,1210.0
+2019,Lourinhã,175.6
+2019,Lousã,122.4
+2019,Lousada,491.2
+2019,Mação,16.0
+2019,Macedo de Cavaleiros,20.6
+2019,Machico,287.7
+2019,Madalena,42.7
+2019,Mafra,290.8
+2019,Maia,1630.9
+2019,Mangualde,83.7
+2019,Manteigas,24.7
+2019,Marco de Canaveses,245.5
+2019,Marinha Grande,207.4
+2019,Marvão,19.8
+2019,Matosinhos,2792.4
+2019,Mealhada,175.2
+2019,Mêda,16.2
+2019,Melgaço,33.5
+2019,Mértola,4.9
+2019,Mesão Frio,134.3
+2019,Mira,97.4
+2019,Miranda do Corvo,95.7
+2019,Miranda do Douro,13.5
+2019,Mirandela,32.9
+2019,Mogadouro,11.2
+2019,Moimenta da Beira,42.6
+2019,Moita,1184.2
+2019,Monção,84.6
+2019,Monchique,13.8
+2019,Mondim de Basto,37.7
+2019,Monforte,7.1
+2019,Montalegre,11.6
+2019,Montemor-o-Novo,12.9
+2019,Montemor-o-Velho,107.1
+2019,Montijo,157.5
+2019,Mora,9.6
+2019,Mortágua,35.9
+2019,Moura,13.9
+2019,Mourão,8.5
+2019,Murça,28.2
+2019,Murtosa,142.7
+2019,Nazaré,180.9
+2019,Nelas,104.5
+2019,Nisa,10.6
+2019,Nordeste,44.0
+2019,Óbidos,82.7
+2019,Odemira,16.8
+2019,Odivelas,5631.8
+2019,Oeiras,3779.8
+2019,Oleiros,10.3
+2019,Olhão,339.4
+2019,Oliveira de Azeméis,410.5
+2019,Oliveira de Frades,65.8
+2019,Oliveira do Bairro,264.4
+2019,Oliveira do Hospital,83.0
+2019,Ourém,106.2
+2019,Ourique,7.4
+2019,Ovar,371.5
+2019,Paços de Ferreira,785.5
+2019,Palmela,144.8
+2019,Pampilhosa da Serra,10.4
+2019,Paredes,538.0
+2019,Paredes de Coura,62.9
+2019,Pedrógão Grande,26.6
+2019,Penacova,61.4
+2019,Penafiel,328.8
+2019,Penalva do Castelo,54.5
+2019,Penamacor,8.5
+2019,Penedono,20.7
+2019,Penela,40.5
+2019,Peniche,341.9
+2019,Peso da Régua,155.7
+2019,Pinhel,17.2
+2019,Pombal,81.7
+2019,Ponta Delgada,289.7
+2019,Ponta do Sol,181.2
+2019,Ponte da Barca,61.4
+2019,Ponte de Lima,128.9
+2019,Ponte de Sor,18.2
+2019,Portalegre,50.6
+2019,Portel,9.5
+2019,Portimão,327.2
+2019,Porto,5721.9
+2019,Porto de Mós,87.9
+2019,Porto Moniz,30.4
+2019,Porto Santo,120.8
+2019,Póvoa de Lanhoso,159.5
+2019,Póvoa de Varzim,781.5
+2019,Povoação,54.9
+2019,Proença-a-Nova,18.2
+2019,Redondo,17.3
+2019,Reguengos de Monsaraz,21.4
+2019,Resende,82.4
+2019,Ribeira Brava,194.8
+2019,Ribeira de Pena,27.4
+2019,Ribeira Grande,174.3
+2019,Rio Maior,76.9
+2019,Sabrosa,35.3
+2019,Sabugal,13.8
+2019,Salvaterra de Magos,87.1
+2019,Santa Comba Dão,95.2
+2019,Santa Cruz,514.8
+2019,Santa Cruz da Graciosa,67.7
+2019,Santa Cruz das Flores,28.5
+2019,Santa Maria da Feira,633.2
+2019,Santa Marta de Penaguião,89.0
+2019,Santana,69.8
+2019,Santarém,106.0
+2019,Santiago do Cacém,26.3
+2019,Santo Tirso,498.6
+2019,São Brás de Alportel,72.4
+2019,São João da Madeira,2800.6
+2019,São João da Pesqueira,25.9
+2019,São Pedro do Sul,43.5
+2019,São Roque do Pico,22.6
+2019,São Vicente,61.6
+2019,Sardoal,38.5
+2019,Sátão,54.6
+2019,Seia,50.5
+2019,Seixal,1721.3
+2019,Sernancelhe,24.6
+2019,Serpa,12.5
+2019,Sertã,32.9
+2019,Sesimbra,263.8
+2019,Setúbal,536.6
+2019,Sever do Vouga,86.0
+2019,Silves,54.8
+2019,Sines,69.9
+2019,Sintra,1203.7
+2019,Sobral de Monte Agraço,199.5
+2019,Soure,65.3
+2019,Sousel,15.7
+2019,Tábua,55.8
+2019,Tabuaço,37.3
+2019,Tarouca,73.1
+2019,Tavira,45.1
+2019,Terras de Bouro,23.1
+2019,Tomar,104.4
+2019,Tondela,70.2
+2019,Torre de Moncorvo,13.1
+2019,Torres Novas,127.0
+2019,Torres Vedras,201.1
+2019,Trancoso,23.5
+2019,Trofa,535.4
+2019,Vagos,138.2
+2019,Vale de Cambra,144.7
+2019,Valença,116.0
+2019,Valongo,1256.9
+2019,Valpaços,27.1
+2019,Velas,42.4
+2019,Vendas Novas,50.4
+2019,Viana do Alentejo,13.7
+2019,Viana do Castelo,269.0
+2019,Vidigueira,16.6
+2019,Vieira do Minho,55.7
+2019,Vila da Praia da Vitória,121.1
+2019,Vila de Rei,16.9
+2019,Vila do Bispo,31.2
+2019,Vila do Conde,541.5
+2019,Vila do Porto,55.5
+2019,Vila Flor,23.0
+2019,Vila Franca de Xira,433.1
+2019,Vila Franca do Campo,133.0
+2019,Vila Nova da Barquinha,140.2
+2019,Vila Nova de Cerveira,82.1
+2019,Vila Nova de Famalicão,660.7
+2019,Vila Nova de Foz Côa,16.0
+2019,Vila Nova de Gaia,1808.5
+2019,Vila Nova de Paiva,26.6
+2019,Vila Nova de Poiares,80.7
+2019,Vila Pouca de Aguiar,27.2
+2019,Vila Real,131.7
+2019,Vila Real de Santo António,308.7
+2019,Vila Velha de Ródão,9.8
+2019,Vila Verde,201.2
+2019,Vila Viçosa,38.3
+2019,Vimioso,8.8
+2019,Vinhais,11.3
+2019,Viseu,196.5
+2019,Vizela,960.9
+2019,Vouzela,49.1
+2020,Abrantes,48.4
+2020,Águeda,138.2
+2020,Aguiar da Beira,25.9
+2020,Alandroal,9.3
+2020,Albergaria-a-Velha,157.4
+2020,Albufeira,315.5
+2020,Alcácer do Sal,7.5
+2020,Alcanena,98.7
+2020,Alcobaça,135.5
+2020,Alcochete,150.2
+2020,Alcoutim,4.4
+2020,Alenquer,146.9
+2020,Alfândega da Fé,13.5
+2020,Alijó,35.4
+2020,Aljezur,18.9
+2020,Aljustrel,19.4
+2020,Almada,2544.1
+2020,Almeida,11.3
+2020,Almeirim,99.7
+2020,Almodôvar,8.7
+2020,Alpiarça,73.2
+2020,Alter do Chão,8.5
+2020,Alvaiázere,39.2
+2020,Alvito,8.6
+2020,Amadora,7242.3
+2020,Amarante,173.7
+2020,Amares,227.7
+2020,Anadia,127.8
+2020,Angra do Heroísmo,142.0
+2020,Ansião,66.7
+2020,Arcos de Valdevez,46.5
+2020,Arganil,33.6
+2020,Armamar,49.0
+2020,Arouca,64.5
+2020,Arraiolos,9.7
+2020,Arronches,9.0
+2020,Arruda dos Vinhos,180.6
+2020,Aveiro,411.6
+2020,Avis,6.3
+2020,Azambuja,82.0
+2020,Baião,101.2
+2020,Barcelos,309.4
+2020,Barrancos,9.1
+2020,Barreiro,2165.9
+2020,Batalha,150.9
+2020,Beja,29.3
+2020,Belmonte,52.0
+2020,Benavente,57.3
+2020,Bombarral,140.7
+2020,Borba,44.7
+2020,Boticas,15.6
+2020,Braga,1057.3
+2020,Bragança,29.6
+2020,Cabeceiras de Basto,64.7
+2020,Cadaval,77.2
+2020,Caldas da Rainha,200.4
+2020,Calheta [R.A.A.],27.6
+2020,Calheta [R.A.M.],98.5
+2020,Câmara de Lobos,619.3
+2020,Caminha,116.3
+2020,Campo Maior,32.8
+2020,Cantanhede,88.1
+2020,Carrazeda de Ansiães,19.8
+2020,Carregal do Sal,77.8
+2020,Cartaxo,147.4
+2020,Cascais,2207.9
+2020,Castanheira de Pêra,40.3
+2020,Castelo Branco,36.6
+2020,Castelo de Paiva,135.6
+2020,Castelo de Vide,12.1
+2020,Castro Daire,36.4
+2020,Castro Marim,21.6
+2020,Castro Verde,12.1
+2020,Celorico da Beira,26.8
+2020,Celorico de Basto,98.1
+2020,Chamusca,11.5
+2020,Chaves,63.8
+2020,Cinfães,74.5
+2020,Coimbra,443.2
+2020,Condeixa-a-Nova,121.3
+2020,Constância,47.1
+2020,Coruche,15.7
+2020,Corvo,22.7
+2020,Covilhã,84.1
+2020,Crato,8.2
+2020,Cuba,25.6
+2020,Elvas,33.1
+2020,Entroncamento,1474.1
+2020,Espinho,1480.3
+2020,Esposende,370.0
+2020,Estarreja,243.9
+2020,Estremoz,24.8
+2020,Évora,41.2
+2020,Fafe,222.2
+2020,Faro,335.6
+2020,Felgueiras,484.2
+2020,Ferreira do Alentejo,11.9
+2020,Ferreira do Zêzere,41.1
+2020,Figueira da Foz,156.5
+2020,Figueira de Castelo Rodrigo,10.2
+2020,Figueiró dos Vinhos,30.6
+2020,Fornos de Algodres,33.9
+2020,Freixo de Espada à Cinta,13.5
+2020,Fronteira,11.8
+2020,Funchal,1394.7
+2020,Fundão,38.1
+2020,Gavião,11.5
+2020,Góis,14.5
+2020,Golegã,63.7
+2020,Gondomar,1250.3
+2020,Gouveia,40.9
+2020,Grândola,16.9
+2020,Guarda,56.6
+2020,Guimarães,652.8
+2020,Horta,83.3
+2020,Idanha-a-Nova,6.0
+2020,Ílhavo,536.5
+2020,Lagoa,270.0
+2020,Lagoa [R.A.A.],312.9
+2020,Lagos,158.1
+2020,Lajes das Flores,20.2
+2020,Lajes do Pico,28.1
+2020,Lamego,147.7
+2020,Leiria,228.4
+2020,Lisboa,5486.0
+2020,Loulé,95.2
+2020,Loures,1211.5
+2020,Lourinhã,179.3
+2020,Lousã,123.3
+2020,Lousada,494.7
+2020,Mação,16.0
+2020,Macedo de Cavaleiros,20.4
+2020,Machico,288.6
+2020,Madalena,43.2
+2020,Mafra,299.0
+2020,Maia,1633.0
+2020,Mangualde,84.0
+2020,Manteigas,24.4
+2020,Marco de Canaveses,246.3
+2020,Marinha Grande,209.4
+2020,Marvão,19.7
+2020,Matosinhos,2775.4
+2020,Mealhada,175.6
+2020,Mêda,16.1
+2020,Melgaço,32.8
+2020,Mértola,4.9
+2020,Mesão Frio,133.4
+2020,Mira,98.3
+2020,Miranda do Corvo,95.6
+2020,Miranda do Douro,13.4
+2020,Mirandela,32.6
+2020,Mogadouro,11.1
+2020,Moimenta da Beira,43.0
+2020,Moita,1206.9
+2020,Monção,84.9
+2020,Monchique,13.9
+2020,Mondim de Basto,37.6
+2020,Monforte,7.1
+2020,Montalegre,11.5
+2020,Montemor-o-Novo,12.9
+2020,Montemor-o-Velho,107.8
+2020,Montijo,161.1
+2020,Mora,9.5
+2020,Mortágua,35.9
+2020,Moura,13.9
+2020,Mourão,8.4
+2020,Murça,27.9
+2020,Murtosa,143.8
+2020,Nazaré,180.9
+2020,Nelas,105.2
+2020,Nisa,10.4
+2020,Nordeste,43.7
+2020,Óbidos,85.0
+2020,Odemira,17.3
+2020,Odivelas,5606.0
+2020,Oeiras,3743.7
+2020,Oleiros,10.4
+2020,Olhão,342.9
+2020,Oliveira de Azeméis,412.5
+2020,Oliveira de Frades,65.8
+2020,Oliveira do Bairro,266.8
+2020,Oliveira do Hospital,83.2
+2020,Ourém,107.5
+2020,Ourique,7.3
+2020,Ovar,373.7
+2020,Paços de Ferreira,786.4
+2020,Palmela,149.4
+2020,Pampilhosa da Serra,10.3
+2020,Paredes,540.4
+2020,Paredes de Coura,63.1
+2020,Pedrógão Grande,26.7
+2020,Penacova,60.8
+2020,Penafiel,329.4
+2020,Penalva do Castelo,54.8
+2020,Penamacor,8.5
+2020,Penedono,20.8
+2020,Penela,40.6
+2020,Peniche,342.8
+2020,Peso da Régua,154.2
+2020,Pinhel,16.9
+2020,Pombal,82.3
+2020,Ponta Delgada,289.8
+2020,Ponta do Sol,181.4
+2020,Ponte da Barca,61.1
+2020,Ponte de Lima,129.1
+2020,Ponte de Sor,18.3
+2020,Portalegre,50.1
+2020,Portel,9.5
+2020,Portimão,330.2
+2020,Porto,5622.2
+2020,Porto de Mós,89.0
+2020,Porto Moniz,29.9
+2020,Porto Santo,120.9
+2020,Póvoa de Lanhoso,162.6
+2020,Póvoa de Varzim,784.8
+2020,Povoação,55.0
+2020,Proença-a-Nova,18.1
+2020,Redondo,17.1
+2020,Reguengos de Monsaraz,21.4
+2020,Resende,81.9
+2020,Ribeira Brava,194.7
+2020,Ribeira de Pena,27.1
+2020,Ribeira Grande,175.1
+2020,Rio Maior,77.6
+2020,Sabrosa,35.5
+2020,Sabugal,13.8
+2020,Salvaterra de Magos,89.2
+2020,Santa Comba Dão,95.9
+2020,Santa Cruz,521.1
+2020,Santa Cruz da Graciosa,67.5
+2020,Santa Cruz das Flores,28.6
+2020,Santa Maria da Feira,635.6
+2020,Santa Marta de Penaguião,88.2
+2020,Santana,68.9
+2020,Santarém,106.8
+2020,Santiago do Cacém,26.4
+2020,Santo Tirso,497.9
+2020,São Brás de Alportel,73.7
+2020,São João da Madeira,2802.3
+2020,São João da Pesqueira,25.8
+2020,São Pedro do Sul,43.6
+2020,São Roque do Pico,22.7
+2020,São Vicente,62.0
+2020,Sardoal,38.2
+2020,Sátão,54.8
+2020,Seia,50.2
+2020,Seixal,1752.6
+2020,Sernancelhe,24.7
+2020,Serpa,12.5
+2020,Sertã,33.2
+2020,Sesimbra,269.2
+2020,Setúbal,539.6
+2020,Sever do Vouga,85.4
+2020,Silves,55.8
+2020,Sines,70.3
+2020,Sintra,1212.8
+2020,Sobral de Monte Agraço,204.3
+2020,Soure,65.3
+2020,Sousel,15.7
+2020,Tábua,56.4
+2020,Tabuaço,37.5
+2020,Tarouca,73.4
+2020,Tavira,45.6
+2020,Terras de Bouro,23.1
+2020,Tomar,104.3
+2020,Tondela,70.3
+2020,Torre de Moncorvo,12.9
+2020,Torres Novas,127.3
+2020,Torres Vedras,205.2
+2020,Trancoso,23.4
+2020,Trofa,536.8
+2020,Vagos,139.7
+2020,Vale de Cambra,144.9
+2020,Valença,116.9
+2020,Valongo,1264.9
+2020,Valpaços,26.9
+2020,Velas,42.2
+2020,Vendas Novas,50.7
+2020,Viana do Alentejo,13.7
+2020,Viana do Castelo,270.1
+2020,Vidigueira,16.5
+2020,Vieira do Minho,55.7
+2020,Vila da Praia da Vitória,121.1
+2020,Vila de Rei,17.2
+2020,Vila do Bispo,32.1
+2020,Vila do Conde,545.1
+2020,Vila do Porto,56.0
+2020,Vila Flor,23.0
+2020,Vila Franca de Xira,434.3
+2020,Vila Franca do Campo,133.1
+2020,Vila Nova da Barquinha,143.1
+2020,Vila Nova de Cerveira,82.4
+2020,Vila Nova de Famalicão,665.0
+2020,Vila Nova de Foz Côa,15.9
+2020,Vila Nova de Gaia,1810.2
+2020,Vila Nova de Paiva,26.8
+2020,Vila Nova de Poiares,81.5
+2020,Vila Pouca de Aguiar,27.2
+2020,Vila Real,131.3
+2020,Vila Real de Santo António,309.8
+2020,Vila Velha de Ródão,10.1
+2020,Vila Verde,203.9
+2020,Vila Viçosa,38.0
+2020,Vimioso,8.7
+2020,Vinhais,11.2
+2020,Viseu,197.2
+2020,Vizela,971.0
+2020,Vouzela,49.8
+2021,Abrantes,47.8
+2021,Águeda,138.7
+2021,Aguiar da Beira,25.7
+2021,Alandroal,9.3
+2021,Albergaria-a-Velha,158.7
+2021,Albufeira,317.8
+2021,Alcácer do Sal,7.4
+2021,Alcanena,98.5
+2021,Alcobaça,136.6
+2021,Alcochete,151.7
+2021,Alcoutim,4.4
+2021,Alenquer,150.9
+2021,Alfândega da Fé,13.3
+2021,Alijó,35.1
+2021,Aljezur,19.0
+2021,Aljustrel,19.4
+2021,Almada,2542.1
+2021,Almeida,11.2
+2021,Almeirim,100.5
+2021,Almodôvar,8.7
+2021,Alpiarça,74.4
+2021,Alter do Chão,8.6
+2021,Alvaiázere,39.3
+2021,Alvito,8.7
+2021,Amadora,7281.6
+2021,Amarante,172.8
+2021,Amares,230.2
+2021,Anadia,128.7
+2021,Angra do Heroísmo,141.9
+2021,Ansião,66.5
+2021,Arcos de Valdevez,46.2
+2021,Arganil,33.6
+2021,Armamar,48.8
+2021,Arouca,63.9
+2021,Arraiolos,9.8
+2021,Arronches,8.9
+2021,Arruda dos Vinhos,185.1
+2021,Aveiro,418.0
+2021,Avis,6.3
+2021,Azambuja,83.7
+2021,Baião,99.9
+2021,Barcelos,307.8
+2021,Barrancos,8.9
+2021,Barreiro,2162.8
+2021,Batalha,153.1
+2021,Beja,29.3
+2021,Belmonte,52.2
+2021,Benavente,59.0
+2021,Bombarral,145.0
+2021,Borba,44.5
+2021,Boticas,15.3
+2021,Braga,1064.7
+2021,Bragança,29.6
+2021,Cabeceiras de Basto,64.2
+2021,Cadaval,79.1
+2021,Caldas da Rainha,203.3
+2021,Calheta [R.A.A.],27.9
+2021,Calheta [R.A.M.],98.4
+2021,Câmara de Lobos,620.1
+2021,Caminha,116.8
+2021,Campo Maior,32.5
+2021,Cantanhede,88.0
+2021,Carrazeda de Ansiães,19.4
+2021,Carregal do Sal,77.7
+2021,Cartaxo,149.9
+2021,Cascais,2195.9
+2021,Castanheira de Pêra,40.3
+2021,Castelo Branco,36.5
+2021,Castelo de Paiva,134.3
+2021,Castelo de Vide,12.1
+2021,Castro Daire,36.1
+2021,Castro Marim,21.9
+2021,Castro Verde,12.2
+2021,Celorico da Beira,26.6
+2021,Celorico de Basto,97.4
+2021,Chamusca,11.5
+2021,Chaves,63.3
+2021,Cinfães,74.0
+2021,Coimbra,444.2
+2021,Condeixa-a-Nova,122.5
+2021,Constância,47.6
+2021,Coruche,15.6
+2021,Corvo,24.1
+2021,Covilhã,83.5
+2021,Crato,8.1
+2021,Cuba,25.6
+2021,Elvas,32.7
+2021,Entroncamento,1521.3
+2021,Espinho,1492.9
+2021,Esposende,374.6
+2021,Estarreja,245.3
+2021,Estremoz,24.8
+2021,Évora,41.2
+2021,Fafe,220.8
+2021,Faro,335.0
+2021,Felgueiras,480.9
+2021,Ferreira do Alentejo,12.1
+2021,Ferreira do Zêzere,41.4
+2021,Figueira da Foz,156.7
+2021,Figueira de Castelo Rodrigo,10.0
+2021,Figueiró dos Vinhos,30.4
+2021,Fornos de Algodres,33.6
+2021,Freixo de Espada à Cinta,13.2
+2021,Fronteira,11.9
+2021,Funchal,1396.0
+2021,Fundão,38.1
+2021,Gavião,11.5
+2021,Góis,14.4
+2021,Golegã,64.1
+2021,Gondomar,1255.9
+2021,Gouveia,40.7
+2021,Grândola,16.9
+2021,Guarda,56.4
+2021,Guimarães,649.3
+2021,Horta,83.4
+2021,Idanha-a-Nova,5.9
+2021,Ílhavo,547.5
+2021,Lagoa,272.8
+2021,Lagoa [R.A.A.],317.2
+2021,Lagos,157.7
+2021,Lajes das Flores,20.2
+2021,Lajes do Pico,28.3
+2021,Lamego,146.5
+2021,Leiria,230.2
+2021,Lisboa,5448.7
+2021,Loulé,94.7
+2021,Loures,1212.0
+2021,Lourinhã,183.4
+2021,Lousã,124.0
+2021,Lousada,495.7
+2021,Mação,16.1
+2021,Macedo de Cavaleiros,20.3
+2021,Machico,287.4
+2021,Madalena,43.8
+2021,Mafra,301.5
+2021,Maia,1658.8
+2021,Mangualde,83.8
+2021,Manteigas,24.2
+2021,Marco de Canaveses,245.4
+2021,Marinha Grande,211.7
+2021,Marvão,19.8
+2021,Matosinhos,2797.9
+2021,Mealhada,176.6
+2021,Mêda,16.1
+2021,Melgaço,32.3
+2021,Mértola,4.8
+2021,Mesão Frio,132.7
+2021,Mira,98.7
+2021,Miranda do Corvo,95.5
+2021,Miranda do Douro,13.1
+2021,Mirandela,32.4
+2021,Mogadouro,10.9
+2021,Moimenta da Beira,43.2
+2021,Moita,1212.9
+2021,Monção,84.5
+2021,Monchique,13.7
+2021,Mondim de Basto,37.4
+2021,Monforte,7.2
+2021,Montalegre,11.4
+2021,Montemor-o-Novo,13.0
+2021,Montemor-o-Velho,108.0
+2021,Montijo,163.3
+2021,Mora,9.4
+2021,Mortágua,35.9
+2021,Moura,13.9
+2021,Mourão,8.6
+2021,Murça,27.7
+2021,Murtosa,146.0
+2021,Nazaré,182.7
+2021,Nelas,105.1
+2021,Nisa,10.1
+2021,Nordeste,43.7
+2021,Óbidos,87.7
+2021,Odemira,17.8
+2021,Odivelas,5618.7
+2021,Oeiras,3745.3
+2021,Oleiros,10.5
+2021,Olhão,341.0
+2021,Oliveira de Azeméis,413.5
+2021,Oliveira de Frades,66.4
+2021,Oliveira do Bairro,272.3
+2021,Oliveira do Hospital,83.0
+2021,Ourém,108.6
+2021,Ourique,7.3
+2021,Ovar,376.3
+2021,Paços de Ferreira,785.2
+2021,Palmela,151.1
+2021,Pampilhosa da Serra,10.3
+2021,Paredes,542.1
+2021,Paredes de Coura,62.8
+2021,Pedrógão Grande,27.2
+2021,Penacova,60.1
+2021,Penafiel,329.1
+2021,Penalva do Castelo,54.6
+2021,Penamacor,8.5
+2021,Penedono,20.9
+2021,Penela,40.8
+2021,Peniche,344.8
+2021,Peso da Régua,152.8
+2021,Pinhel,16.5
+2021,Pombal,82.2
+2021,Ponta Delgada,291.2
+2021,Ponta do Sol,183.2
+2021,Ponte da Barca,60.7
+2021,Ponte de Lima,128.5
+2021,Ponte de Sor,18.2
+2021,Portalegre,49.8
+2021,Portel,9.6
+2021,Portimão,331.1
+2021,Porto,5697.8
+2021,Porto de Mós,89.8
+2021,Porto Moniz,30.1
+2021,Porto Santo,122.0
+2021,Póvoa de Lanhoso,164.2
+2021,Póvoa de Varzim,792.0
+2021,Povoação,55.2
+2021,Proença-a-Nova,18.0
+2021,Redondo,17.0
+2021,Reguengos de Monsaraz,21.3
+2021,Resende,80.8
+2021,Ribeira Brava,196.0
+2021,Ribeira de Pena,26.9
+2021,Ribeira Grande,176.3
+2021,Rio Maior,79.0
+2021,Sabrosa,35.5
+2021,Sabugal,13.8
+2021,Salvaterra de Magos,91.4
+2021,Santa Comba Dão,96.4
+2021,Santa Cruz,528.4
+2021,Santa Cruz da Graciosa,67.7
+2021,Santa Cruz das Flores,29.3
+2021,Santa Maria da Feira,636.3
+2021,Santa Marta de Penaguião,87.2
+2021,Santana,68.4
+2021,Santarém,108.2
+2021,Santiago do Cacém,26.5
+2021,Santo Tirso,495.5
+2021,São Brás de Alportel,74.0
+2021,São João da Madeira,2870.2
+2021,São João da Pesqueira,25.6
+2021,São Pedro do Sul,43.5
+2021,São Roque do Pico,23.1
+2021,São Vicente,61.7
+2021,Sardoal,38.5
+2021,Sátão,54.6
+2021,Seia,49.8
+2021,Seixal,1761.2
+2021,Sernancelhe,24.9
+2021,Serpa,12.5
+2021,Sertã,33.3
+2021,Sesimbra,272.8
+2021,Setúbal,534.6
+2021,Sever do Vouga,84.8
+2021,Silves,56.2
+2021,Sines,71.2
+2021,Sintra,1213.0
+2021,Sobral de Monte Agraço,213.5
+2021,Soure,65.2
+2021,Sousel,15.8
+2021,Tábua,56.8
+2021,Tabuaço,37.6
+2021,Tarouca,73.8
+2021,Tavira,45.3
+2021,Terras de Bouro,23.0
+2021,Tomar,104.1
+2021,Tondela,69.8
+2021,Torre de Moncorvo,12.8
+2021,Torres Novas,127.2
+2021,Torres Vedras,208.6
+2021,Trancoso,23.2
+2021,Trofa,541.7
+2021,Vagos,141.9
+2021,Vale de Cambra,144.5
+2021,Valença,117.8
+2021,Valongo,1286.6
+2021,Valpaços,26.6
+2021,Velas,42.2
+2021,Vendas Novas,51.1
+2021,Viana do Alentejo,13.8
+2021,Viana do Castelo,269.6
+2021,Vidigueira,16.5
+2021,Vieira do Minho,55.4
+2021,Vila da Praia da Vitória,121.7
+2021,Vila de Rei,17.7
+2021,Vila do Bispo,32.4
+2021,Vila do Conde,550.8
+2021,Vila do Porto,56.6
+2021,Vila Flor,22.8
+2021,Vila Franca de Xira,432.7
+2021,Vila Franca do Campo,132.9
+2021,Vila Nova da Barquinha,147.2
+2021,Vila Nova de Cerveira,83.0
+2021,Vila Nova de Famalicão,665.1
+2021,Vila Nova de Foz Côa,15.8
+2021,Vila Nova de Gaia,1815.9
+2021,Vila Nova de Paiva,26.7
+2021,Vila Nova de Poiares,82.9
+2021,Vila Pouca de Aguiar,27.0
+2021,Vila Real,130.9
+2021,Vila Real de Santo António,308.9
+2021,Vila Velha de Ródão,10.4
+2021,Vila Verde,205.3
+2021,Vila Viçosa,37.9
+2021,Vimioso,8.6
+2021,Vinhais,11.0
+2021,Viseu,197.7
+2021,Vizela,975.1
+2021,Vouzela,50.1
+2022,Abrantes,47.4
+2022,Águeda,139.2
+2022,Aguiar da Beira,25.6
+2022,Alandroal,9.2
+2022,Albergaria-a-Velha,159.5
+2022,Albufeira,330.7
+2022,Alcácer do Sal,7.4
+2022,Alcanena,99.1
+2022,Alcobaça,138.0
+2022,Alcochete,154.4
+2022,Alcoutim,4.3
+2022,Alenquer,154.2
+2022,Alfândega da Fé,13.2
+2022,Alijó,34.8
+2022,Aljezur,19.3
+2022,Aljustrel,19.4
+2022,Almada,2562.1
+2022,Almeida,11.0
+2022,Almeirim,101.7
+2022,Almodôvar,8.6
+2022,Alpiarça,75.6
+2022,Alter do Chão,8.7
+2022,Alvaiázere,39.2
+2022,Alvito,8.5
+2022,Amadora,7363.6
+2022,Amarante,172.8
+2022,Amares,234.5
+2022,Anadia,128.7
+2022,Angra do Heroísmo,141.9
+2022,Ansião,66.5
+2022,Arcos de Valdevez,46.3
+2022,Arganil,33.5
+2022,Armamar,48.6
+2022,Arouca,63.6
+2022,Arraiolos,9.9
+2022,Arronches,8.8
+2022,Arruda dos Vinhos,191.3
+2022,Aveiro,424.1
+2022,Avis,6.2
+2022,Azambuja,85.1
+2022,Baião,99.0
+2022,Barcelos,308.0
+2022,Barrancos,8.7
+2022,Barreiro,2171.1
+2022,Batalha,156.0
+2022,Beja,29.3
+2022,Belmonte,52.0
+2022,Benavente,60.6
+2022,Bombarral,148.4
+2022,Borba,44.1
+2022,Boticas,15.2
+2022,Braga,1081.0
+2022,Bragança,29.9
+2022,Cabeceiras de Basto,64.1
+2022,Cadaval,80.4
+2022,Caldas da Rainha,206.3
+2022,Calheta [R.A.A.],27.8
+2022,Calheta [R.A.M.],98.4
+2022,Câmara de Lobos,621.5
+2022,Caminha,118.7
+2022,Campo Maior,32.2
+2022,Cantanhede,88.1
+2022,Carrazeda de Ansiães,19.3
+2022,Carregal do Sal,77.7
+2022,Cartaxo,151.7
+2022,Cascais,2230.2
+2022,Castanheira de Pêra,40.2
+2022,Castelo Branco,36.5
+2022,Castelo de Paiva,133.8
+2022,Castelo de Vide,12.1
+2022,Castro Daire,35.9
+2022,Castro Marim,22.3
+2022,Castro Verde,12.2
+2022,Celorico da Beira,26.4
+2022,Celorico de Basto,97.1
+2022,Chamusca,11.5
+2022,Chaves,63.1
+2022,Cinfães,73.4
+2022,Coimbra,447.1
+2022,Condeixa-a-Nova,124.1
+2022,Constância,48.2
+2022,Coruche,15.6
+2022,Corvo,25.4
+2022,Covilhã,82.9
+2022,Crato,8.2
+2022,Cuba,25.8
+2022,Elvas,32.4
+2022,Entroncamento,1554.7
+2022,Espinho,1514.0
+2022,Esposende,382.2
+2022,Estarreja,246.4
+2022,Estremoz,24.6
+2022,Évora,41.2
+2022,Fafe,220.7
+2022,Faro,340.2
+2022,Felgueiras,478.8
+2022,Ferreira do Alentejo,12.1
+2022,Ferreira do Zêzere,41.5
+2022,Figueira da Foz,157.8
+2022,Figueira de Castelo Rodrigo,10.0
+2022,Figueiró dos Vinhos,30.1
+2022,Fornos de Algodres,33.3
+2022,Freixo de Espada à Cinta,13.0
+2022,Fronteira,11.8
+2022,Funchal,1403.9
+2022,Fundão,38.0
+2022,Gavião,11.4
+2022,Góis,14.3
+2022,Golegã,64.2
+2022,Gondomar,1267.8
+2022,Gouveia,40.3
+2022,Grândola,17.0
+2022,Guarda,56.0
+2022,Guimarães,649.4
+2022,Horta,83.4
+2022,Idanha-a-Nova,5.9
+2022,Ílhavo,557.1
+2022,Lagoa,277.7
+2022,Lagoa [R.A.A.],323.0
+2022,Lagos,160.3
+2022,Lajes das Flores,20.5
+2022,Lajes do Pico,28.2
+2022,Lamego,146.1
+2022,Leiria,232.6
+2022,Lisboa,5572.4
+2022,Loulé,96.4
+2022,Loures,1222.3
+2022,Lourinhã,188.0
+2022,Lousã,124.4
+2022,Lousada,498.9
+2022,Mação,16.0
+2022,Macedo de Cavaleiros,20.3
+2022,Machico,286.4
+2022,Madalena,44.1
+2022,Mafra,306.4
+2022,Maia,1691.8
+2022,Mangualde,83.6
+2022,Manteigas,24.0
+2022,Marco de Canaveses,245.0
+2022,Marinha Grande,214.4
+2022,Marvão,19.6
+2022,Matosinhos,2837.9
+2022,Mealhada,177.3
+2022,Mêda,16.0
+2022,Melgaço,32.0
+2022,Mértola,4.8
+2022,Mesão Frio,131.9
+2022,Mira,99.1
+2022,Miranda do Corvo,95.2
+2022,Miranda do Douro,13.0
+2022,Mirandela,32.4
+2022,Mogadouro,10.9
+2022,Moimenta da Beira,43.7
+2022,Moita,1227.8
+2022,Monção,84.8
+2022,Monchique,13.6
+2022,Mondim de Basto,37.2
+2022,Monforte,7.1
+2022,Montalegre,11.3
+2022,Montemor-o-Novo,12.9
+2022,Montemor-o-Velho,108.0
+2022,Montijo,166.5
+2022,Mora,9.4
+2022,Mortágua,35.6
+2022,Moura,13.9
+2022,Mourão,8.6
+2022,Murça,27.6
+2022,Murtosa,146.7
+2022,Nazaré,186.2
+2022,Nelas,104.6
+2022,Nisa,9.9
+2022,Nordeste,43.7
+2022,Óbidos,90.6
+2022,Odemira,18.6
+2022,Odivelas,5694.9
+2022,Oeiras,3789.2
+2022,Oleiros,10.4
+2022,Olhão,342.5
+2022,Oliveira de Azeméis,415.1
+2022,Oliveira de Frades,66.2
+2022,Oliveira do Bairro,277.7
+2022,Oliveira do Hospital,82.3
+2022,Ourém,109.7
+2022,Ourique,7.3
+2022,Ovar,378.4
+2022,Paços de Ferreira,787.2
+2022,Palmela,154.1
+2022,Pampilhosa da Serra,10.3
+2022,Paredes,544.7
+2022,Paredes de Coura,62.8
+2022,Pedrógão Grande,27.4
+2022,Penacova,59.5
+2022,Penafiel,329.8
+2022,Penalva do Castelo,54.2
+2022,Penamacor,8.4
+2022,Penedono,20.9
+2022,Penela,41.1
+2022,Peniche,350.0
+2022,Peso da Régua,152.1
+2022,Pinhel,16.3
+2022,Pombal,82.0
+2022,Ponta Delgada,293.5
+2022,Ponta do Sol,184.6
+2022,Ponte da Barca,61.0
+2022,Ponte de Lima,128.2
+2022,Ponte de Sor,18.1
+2022,Portalegre,49.3
+2022,Portel,9.5
+2022,Portimão,341.5
+2022,Porto,5867.1
+2022,Porto de Mós,90.4
+2022,Porto Moniz,30.1
+2022,Porto Santo,125.6
+2022,Póvoa de Lanhoso,165.7
+2022,Póvoa de Varzim,806.0
+2022,Povoação,55.3
+2022,Proença-a-Nova,18.0
+2022,Redondo,17.0
+2022,Reguengos de Monsaraz,21.2
+2022,Resende,79.9
+2022,Ribeira Brava,196.5
+2022,Ribeira de Pena,26.8
+2022,Ribeira Grande,177.9
+2022,Rio Maior,80.5
+2022,Sabrosa,35.7
+2022,Sabugal,13.6
+2022,Salvaterra de Magos,93.7
+2022,Santa Comba Dão,96.5
+2022,Santa Cruz,535.4
+2022,Santa Cruz da Graciosa,67.8
+2022,Santa Cruz das Flores,29.2
+2022,Santa Maria da Feira,641.8
+2022,Santa Marta de Penaguião,86.5
+2022,Santana,67.6
+2022,Santarém,109.2
+2022,Santiago do Cacém,26.5
+2022,Santo Tirso,495.8
+2022,São Brás de Alportel,75.0
+2022,São João da Madeira,2940.6
+2022,São João da Pesqueira,25.5
+2022,São Pedro do Sul,43.2
+2022,São Roque do Pico,23.6
+2022,São Vicente,61.7
+2022,Sardoal,38.8
+2022,Sátão,54.6
+2022,Seia,49.2
+2022,Seixal,1783.2
+2022,Sernancelhe,25.1
+2022,Serpa,12.4
+2022,Sertã,33.3
+2022,Sesimbra,279.0
+2022,Setúbal,535.2
+2022,Sever do Vouga,84.0
+2022,Silves,57.3
+2022,Sines,72.0
+2022,Sintra,1223.8
+2022,Sobral de Monte Agraço,220.1
+2022,Soure,64.7
+2022,Sousel,15.7
+2022,Tábua,57.1
+2022,Tabuaço,37.7
+2022,Tarouca,74.7
+2022,Tavira,45.6
+2022,Terras de Bouro,22.9
+2022,Tomar,103.8
+2022,Tondela,69.1
+2022,Torre de Moncorvo,12.7
+2022,Torres Novas,127.4
+2022,Torres Vedras,211.5
+2022,Trancoso,22.9
+2022,Trofa,549.7
+2022,Vagos,143.9
+2022,Vale de Cambra,144.2
+2022,Valença,118.9
+2022,Valongo,1310.0
+2022,Valpaços,26.5
+2022,Velas,42.2
+2022,Vendas Novas,51.5
+2022,Viana do Alentejo,14.0
+2022,Viana do Castelo,270.4
+2022,Vidigueira,16.6
+2022,Vieira do Minho,55.4
+2022,Vila da Praia da Vitória,122.0
+2022,Vila de Rei,17.8
+2022,Vila do Bispo,32.8
+2022,Vila do Conde,560.5
+2022,Vila do Porto,56.9
+2022,Vila Flor,22.7
+2022,Vila Franca de Xira,435.2
+2022,Vila Franca do Campo,133.2
+2022,Vila Nova da Barquinha,151.4
+2022,Vila Nova de Cerveira,84.7
+2022,Vila Nova de Famalicão,670.0
+2022,Vila Nova de Foz Côa,15.9
+2022,Vila Nova de Gaia,1831.5
+2022,Vila Nova de Paiva,26.7
+2022,Vila Nova de Poiares,83.5
+2022,Vila Pouca de Aguiar,26.9
+2022,Vila Real,131.1
+2022,Vila Real de Santo António,312.7
+2022,Vila Velha de Ródão,10.5
+2022,Vila Verde,207.8
+2022,Vila Viçosa,37.6
+2022,Vimioso,8.6
+2022,Vinhais,10.8
+2022,Viseu,197.9
+2022,Vizela,983.7
+2022,Vouzela,49.8
+2023,Abrantes,47.3
+2023,Águeda,140.8
+2023,Aguiar da Beira,25.6
+2023,Alandroal,9.2
+2023,Albergaria-a-Velha,162.3
+2023,Albufeira,337.9
+2023,Alcácer do Sal,7.4
+2023,Alcanena,100.1
+2023,Alcobaça,140.5
+2023,Alcochete,156.6
+2023,Alcoutim,4.2
+2023,Alenquer,158.8
+2023,Alfândega da Fé,13.1
+2023,Alijó,34.7
+2023,Aljezur,19.7
+2023,Aljustrel,19.5
+2023,Almada,2588.7
+2023,Almeida,11.0
+2023,Almeirim,102.7
+2023,Almodôvar,8.6
+2023,Alpiarça,76.9
+2023,Alter do Chão,8.8
+2023,Alvaiázere,39.6
+2023,Alvito,8.6
+2023,Amadora,7495.9
+2023,Amarante,173.3
+2023,Amares,238.9
+2023,Anadia,130.2
+2023,Angra do Heroísmo,141.4
+2023,Ansião,67.4
+2023,Arcos de Valdevez,46.6
+2023,Arganil,34.0
+2023,Armamar,48.2
+2023,Arouca,63.6
+2023,Arraiolos,9.9
+2023,Arronches,8.8
+2023,Arruda dos Vinhos,196.5
+2023,Aveiro,435.5
+2023,Avis,6.3
+2023,Azambuja,87.3
+2023,Baião,98.6
+2023,Barcelos,308.8
+2023,Barrancos,8.5
+2023,Barreiro,2197.5
+2023,Batalha,160.2
+2023,Beja,29.5
+2023,Belmonte,52.3
+2023,Benavente,62.0
+2023,Bombarral,153.2
+2023,Borba,44.1
+2023,Boticas,15.2
+2023,Braga,1099.1
+2023,Bragança,30.2
+2023,Cabeceiras de Basto,64.3
+2023,Cadaval,82.5
+2023,Caldas da Rainha,211.8
+2023,Calheta [R.A.A.],27.7
+2023,Calheta [R.A.M.],100.1
+2023,Câmara de Lobos,628.4
+2023,Caminha,120.4
+2023,Campo Maior,32.0
+2023,Cantanhede,89.3
+2023,Carrazeda de Ansiães,19.3
+2023,Carregal do Sal,78.5
+2023,Cartaxo,154.0
+2023,Cascais,2255.0
+2023,Castanheira de Pêra,40.6
+2023,Castelo Branco,36.8
+2023,Castelo de Paiva,134.3
+2023,Castelo de Vide,12.1
+2023,Castro Daire,36.2
+2023,Castro Marim,22.7
+2023,Castro Verde,12.2
+2023,Celorico da Beira,26.7
+2023,Celorico de Basto,97.5
+2023,Chamusca,11.4
+2023,Chaves,63.3
+2023,Cinfães,72.8
+2023,Coimbra,453.4
+2023,Condeixa-a-Nova,126.6
+2023,Constância,49.2
+2023,Coruche,15.6
+2023,Corvo,25.4
+2023,Covilhã,83.5
+2023,Crato,8.2
+2023,Cuba,26.0
+2023,Elvas,32.3
+2023,Entroncamento,1601.2
+2023,Espinho,1538.1
+2023,Esposende,389.2
+2023,Estarreja,250.5
+2023,Estremoz,24.4
+2023,Évora,41.3
+2023,Fafe,221.4
+2023,Faro,342.9
+2023,Felgueiras,478.9
+2023,Ferreira do Alentejo,12.2
+2023,Ferreira do Zêzere,42.1
+2023,Figueira da Foz,160.1
+2023,Figueira de Castelo Rodrigo,9.9
+2023,Figueiró dos Vinhos,30.4
+2023,Fornos de Algodres,33.3
+2023,Freixo de Espada à Cinta,12.9
+2023,Fronteira,12.0
+2023,Funchal,1411.2
+2023,Fundão,38.5
+2023,Gavião,11.3
+2023,Góis,14.4
+2023,Golegã,64.5
+2023,Gondomar,1277.9
+2023,Gouveia,40.7
+2023,Grândola,17.2
+2023,Guarda,56.2
+2023,Guimarães,650.6
+2023,Horta,83.6
+2023,Idanha-a-Nova,6.0
+2023,Ílhavo,573.3
+2023,Lagoa,282.4
+2023,Lagoa [R.A.A.],327.3
+2023,Lagos,162.2
+2023,Lajes das Flores,20.6
+2023,Lajes do Pico,28.3
+2023,Lamego,145.9
+2023,Leiria,236.8
+2023,Lisboa,5668.5
+2023,Loulé,97.4
+2023,Loures,1238.1
+2023,Lourinhã,192.9
+2023,Lousã,125.9
+2023,Lousada,502.8
+2023,Mação,16.0
+2023,Macedo de Cavaleiros,20.4
+2023,Machico,287.1
+2023,Madalena,44.4
+2023,Mafra,309.0
+2023,Maia,1719.0
+2023,Mangualde,84.8
+2023,Manteigas,24.1
+2023,Marco de Canaveses,245.6
+2023,Marinha Grande,219.0
+2023,Marvão,19.5
+2023,Matosinhos,2876.6
+2023,Mealhada,178.8
+2023,Mêda,16.0
+2023,Melgaço,31.9
+2023,Mértola,4.7
+2023,Mesão Frio,130.8
+2023,Mira,101.0
+2023,Miranda do Corvo,95.9
+2023,Miranda do Douro,12.9
+2023,Mirandela,32.5
+2023,Mogadouro,10.8
+2023,Moimenta da Beira,44.2
+2023,Moita,1247.7
+2023,Monção,85.3
+2023,Monchique,13.5
+2023,Mondim de Basto,37.2
+2023,Monforte,7.1
+2023,Montalegre,11.4
+2023,Montemor-o-Novo,12.9
+2023,Montemor-o-Velho,108.7
+2023,Montijo,169.8
+2023,Mora,9.4
+2023,Mortágua,36.1
+2023,Moura,13.9
+2023,Mourão,8.7
+2023,Murça,27.8
+2023,Murtosa,151.0
+2023,Nazaré,190.4
+2023,Nelas,106.0
+2023,Nisa,9.9
+2023,Nordeste,43.7
+2023,Óbidos,93.9
+2023,Odemira,19.3
+2023,Odivelas,5791.6
+2023,Oeiras,3829.1
+2023,Oleiros,10.4
+2023,Olhão,344.2
+2023,Oliveira de Azeméis,417.6
+2023,Oliveira de Frades,67.2
+2023,Oliveira do Bairro,286.9
+2023,Oliveira do Hospital,83.0
+2023,Ourém,111.6
+2023,Ourique,7.3
+2023,Ovar,384.1
+2023,Paços de Ferreira,788.6
+2023,Palmela,156.8
+2023,Pampilhosa da Serra,10.4
+2023,Paredes,548.7
+2023,Paredes de Coura,63.0
+2023,Pedrógão Grande,28.2
+2023,Penacova,59.6
+2023,Penafiel,331.3
+2023,Penalva do Castelo,54.7
+2023,Penamacor,8.5
+2023,Penedono,21.0
+2023,Penela,41.6
+2023,Peniche,355.3
+2023,Peso da Régua,151.8
+2023,Pinhel,16.2
+2023,Pombal,83.1
+2023,Ponta Delgada,295.1
+2023,Ponta do Sol,188.3
+2023,Ponte da Barca,61.4
+2023,Ponte de Lima,128.4
+2023,Ponte de Sor,18.1
+2023,Portalegre,49.0
+2023,Portel,9.5
+2023,Portimão,346.5
+2023,Porto,6006.0
+2023,Porto de Mós,91.7
+2023,Porto Moniz,30.5
+2023,Porto Santo,130.3
+2023,Póvoa de Lanhoso,167.9
+2023,Póvoa de Varzim,821.4
+2023,Povoação,55.1
+2023,Proença-a-Nova,17.9
+2023,Redondo,17.0
+2023,Reguengos de Monsaraz,21.3
+2023,Resende,79.1
+2023,Ribeira Brava,199.8
+2023,Ribeira de Pena,27.0
+2023,Ribeira Grande,179.2
+2023,Rio Maior,81.8
+2023,Sabrosa,35.9
+2023,Sabugal,13.7
+2023,Salvaterra de Magos,95.7
+2023,Santa Comba Dão,97.6
+2023,Santa Cruz,543.3
+2023,Santa Cruz da Graciosa,67.6
+2023,Santa Cruz das Flores,29.6
+2023,Santa Maria da Feira,647.8
+2023,Santa Marta de Penaguião,86.4
+2023,Santana,68.0
+2023,Santarém,110.4
+2023,Santiago do Cacém,26.7
+2023,Santo Tirso,496.7
+2023,São Brás de Alportel,75.7
+2023,São João da Madeira,3005.4
+2023,São João da Pesqueira,25.4
+2023,São Pedro do Sul,43.6
+2023,São Roque do Pico,24.0
+2023,São Vicente,63.1
+2023,Sardoal,39.3
+2023,Sátão,55.2
+2023,Seia,49.2
+2023,Seixal,1814.2
+2023,Sernancelhe,25.3
+2023,Serpa,12.4
+2023,Sertã,33.4
+2023,Sesimbra,283.6
+2023,Setúbal,536.4
+2023,Sever do Vouga,84.3
+2023,Silves,58.1
+2023,Sines,72.7
+2023,Sintra,1239.0
+2023,Sobral de Monte Agraço,228.0
+2023,Soure,65.0
+2023,Sousel,15.8
+2023,Tábua,58.1
+2023,Tabuaço,37.7
+2023,Tarouca,76.1
+2023,Tavira,45.9
+2023,Terras de Bouro,23.0
+2023,Tomar,105.0
+2023,Tondela,69.6
+2023,Torre de Moncorvo,12.7
+2023,Torres Novas,128.6
+2023,Torres Vedras,216.2
+2023,Trancoso,23.0
+2023,Trofa,555.5
+2023,Vagos,148.3
+2023,Vale de Cambra,144.2
+2023,Valença,120.9
+2023,Valongo,1333.4
+2023,Valpaços,26.6
+2023,Velas,42.2
+2023,Vendas Novas,51.9
+2023,Viana do Alentejo,14.1
+2023,Viana do Castelo,272.0
+2023,Vidigueira,16.5
+2023,Vieira do Minho,55.7
+2023,Vila da Praia da Vitória,122.4
+2023,Vila de Rei,18.0
+2023,Vila do Bispo,33.1
+2023,Vila do Conde,569.5
+2023,Vila do Porto,56.8
+2023,Vila Flor,22.7
+2023,Vila Franca de Xira,438.3
+2023,Vila Franca do Campo,133.4
+2023,Vila Nova da Barquinha,157.1
+2023,Vila Nova de Cerveira,86.0
+2023,Vila Nova de Famalicão,674.6
+2023,Vila Nova de Foz Côa,16.0
+2023,Vila Nova de Gaia,1847.5
+2023,Vila Nova de Paiva,27.1
+2023,Vila Nova de Poiares,84.5
+2023,Vila Pouca de Aguiar,26.9
+2023,Vila Real,131.8
+2023,Vila Real de Santo António,315.3
+2023,Vila Velha de Ródão,10.7
+2023,Vila Verde,210.6
+2023,Vila Viçosa,37.5
+2023,Vimioso,8.7
+2023,Vinhais,10.7
+2023,Viseu,201.1
+2023,Vizela,993.1
+2023,Vouzela,50.4
