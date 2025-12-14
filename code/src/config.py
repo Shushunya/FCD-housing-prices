@@ -1,4 +1,5 @@
 from pathlib import Path
+
 import numpy as np
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
@@ -34,11 +35,14 @@ WEATHER_QUARTER_FILE = INTERM_DATA_DIR / "weather_quarterly.csv"
 MASTER_DF_FILE = PROCESSED_DATA_DIR / "all_raw_features.csv"
 
 MODELS_DIR = PROJECT_ROOT / "models"
+URBAN_CLUSTER_DIR = MODELS_DIR / "urban_clusters"
 
 
 # project constants
 # eda
 COLUMN_MISSING_VALUES = "nan count"
+YEARS = [2020, 2021, 2022, 2023]
+
 # modeling
 RANDOM_SEED = 42
 SPLIT_SIZE = 0.2
@@ -46,6 +50,7 @@ MAX_ITER = 4000
 ALPHAS = np.logspace(-6, 6, 40)
 # clustering
 
+MUNICIPALITY_COLUMN = "municipality"
 SERVICES_COLUMNS = [
     "cinema",
     "college",
@@ -77,24 +82,69 @@ WEATHER_RAW_COLUMNS = [
 WEATHER_DAYS_COLUMNS = ["windy_days", "rainy_days", "sunny_days", "warm_days"]
 WEATHER_COLUMNS = WEATHER_RAW_COLUMNS + WEATHER_DAYS_COLUMNS
 
-
 INCOME_COLUMN = "avg_income"
 POP_DENSITY_COLUMN = "people/km2"
 TIME_COLUMNS = ["quarter_num", "quarter_ord"]
 YEAR_COLUMN = "year"
 
+# Sets of features
+URBAN_FEATURES = [POP_DENSITY_COLUMN, INCOME_COLUMN] + SERVICES_COLUMNS
+URBAN_PROFILE = [
+    MUNICIPALITY_COLUMN,
+    POP_DENSITY_COLUMN,
+    INCOME_COLUMN,
+    "cinema",
+    "college",
+    "courthouse",
+    "fire_station",
+    "hospital",
+    "kindergarten",
+    "library",
+    "mall",
+    "museum",
+    "pharmacy",
+    "police",
+    "post_office",
+    "school",
+    "station",
+    "theatre",
+    "university",
+]
 
 # CLUSTERING CONFIGURATION
-CLUSTERING_CONFIG = {
-    "urban": [POP_DENSITY_COLUMN, INCOME_COLUMN] + SERVICES_COLUMNS,
-    "age": AGE_COLUMNS,
+CLUSTERING_CONFIGS = {
+    # Experiment 1: Urbanization Tiers
+    "urban": {
+        "features": URBAN_FEATURES,
+        "model_dir": URBAN_CLUSTER_DIR,  # Save in a subfolder
+        "experiments": [
+            {"n_clusters": k, "model_name": f"urban_kmeans_{k}.joblib"}
+            for k in range(3, 7)
+        ],
+        "cluster_profile": URBAN_PROFILE,
+        "model_name_pattern": "urban_kmeans_{k}.joblib",
+    },
+    "urban_cut": {
+        "features": URBAN_FEATURES,
+        "model_dir": URBAN_CLUSTER_DIR,  # Save in a subfolder
+        "experiments": [
+            {"n_clusters": k, "model_name": f"urban_cut_kmeans_{k}.joblib"}
+            for k in range(3, 7)
+        ],
+        "cluster_profile": URBAN_PROFILE,
+        "exclude": ["Porto", "Lisboa"],
+        "model_name_pattern": "urban_cut_kmeans_{k}.joblib",
+    },
+    # # Experiment 2: Housing Quality Groups
+    # "housing_quality_analysis": {
+    #     "features": HOUSING_FEATURES,
+    #     "model_dir": "../models/housing_clusters",
+    #     "experiments": [
+    #         {"n_clusters": k, "model_name": f"housing_kmeans_{k}.joblib"}
+    #         for k in range(2, 5) # Maybe fewer clusters make sense here
+    #     ]
+    # }
 }
-
-# CLUSTERING_PARAMS = {
-#     "geo_features": {"n_clusters": 5, "algorithm": "kmeans"},
-#     "house_features": {"n_clusters": 4, "algorithm": "kmeans"},
-# }
-
 
 # REGRESSION CONFIGURATION
 

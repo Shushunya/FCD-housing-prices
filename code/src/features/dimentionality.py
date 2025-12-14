@@ -1,23 +1,19 @@
 import logging
-import numpy as np
-import pandas as pd
+from pathlib import Path
+from typing import Dict, List, Optional
+
 import matplotlib.pyplot as plt
+import pandas as pd
 import seaborn as sns
-from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 from sklearn.pipeline import Pipeline
-from typing import List, Dict, Optional
-from pathlib import Path
-
-from src.config import CMAP2
+from sklearn.preprocessing import StandardScaler
 
 # Configure logging
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
 )
 logger = logging.getLogger(__name__)
-
-print(CMAP2)
 
 
 class UrbanizationAnalyzer:
