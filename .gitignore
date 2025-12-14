@@ -18,7 +18,7 @@ eggs/
 # Specific files and folders to ignore as requested
 venv/
 .venv/
-models/
+# models/
 uv.lock
 
 # Virtual environment files (standard exclusions)
@@ -43,3 +43,4 @@ nosetests.xml
 *.swp
 *~
 .DS_Store
+*.joblib

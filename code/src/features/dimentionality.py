@@ -16,7 +16,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-class UrbanizationAnalyzer:
+class UrbanizationPCA:
     """
     A class to handle loading, preprocessing, and analyzing urbanization data via PCA.
     """
@@ -99,7 +99,7 @@ class UrbanizationAnalyzer:
         df_loadings = self.get_loadings(n_display=n_components)
 
         # Create subplots (one for each PC)
-        fig, axes = plt.subplots(n_components, 1, figsize=(12, 6 * n_components))
+        fig, axes = plt.subplots(1, n_components, figsize=(15, 3 * n_components))
         if n_components == 1:
             axes = [axes]  # Handle single plot edge case
 
@@ -112,7 +112,7 @@ class UrbanizationAnalyzer:
             # Color code: Red for negative, Blue for positive
             colors = ["#d62728" if x < 0 else "#1f77b4" for x in subset.values]
 
-            subset.plot(kind="barh", ax=ax, color=colors, width=0.8, alpha=0.8)
+            subset.plot(kind="barh", ax=ax, color=colors, width=0.3, alpha=0.8)
 
             # Aesthetics
             ax.set_title(f"Composition of {pc_col}", fontsize=14, pad=15)
@@ -157,7 +157,7 @@ class UrbanizationAnalyzer:
 
         stats = self.get_variance_stats()
 
-        fig, ax = plt.subplots(figsize=(15, 10))
+        fig, ax = plt.subplots(figsize=(15, 6))
 
         sns.scatterplot(
             x="PC1",

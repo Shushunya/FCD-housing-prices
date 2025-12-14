@@ -2,14 +2,21 @@ from pathlib import Path
 
 import numpy as np
 
+# ==============================================================================
+# 1. PROJECT STRUCTURE & PATHS
+# ==============================================================================
+
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
-# Standard paths for data
+# Standard data directories
 DATA_DIR = PROJECT_ROOT / "data"
 RAW_DATA_DIR = DATA_DIR / "raw"
 INTERM_DATA_DIR = DATA_DIR / "interm"  # Cleaned data but not the final dataset
 PROCESSED_DATA_DIR = DATA_DIR / "processed"
 API_DATA_DIR = DATA_DIR / "api"
+
+MODELS_DIR = PROJECT_ROOT / "models"
+URBAN_CLUSTER_DIR = MODELS_DIR / "urban_clusters"
 
 # Raw data files
 HOUSE_RAW_FILE = RAW_DATA_DIR / "house_pricing_raw.csv"
@@ -22,7 +29,7 @@ AGE_RAW_FILE = RAW_DATA_DIR / "age-distribution.csv"
 WEATHER_FILE = API_DATA_DIR / "weather.csv"
 SERVICES_FILE = API_DATA_DIR / "osm_services_counts.csv"
 
-# interm files
+# Intermediate files
 MUNICIPALITIES_FILE = INTERM_DATA_DIR / "municipalities.csv"
 HOUSE_CLEAN_FILE = INTERM_DATA_DIR / "house_cleaned.csv"
 INCOME_CLEAN_TOTAL = INTERM_DATA_DIR / "total_average_income_by_municipality.csv"
@@ -31,26 +38,27 @@ DENSITY_CLEAN_FILE = INTERM_DATA_DIR / "density_by_municipality.csv"
 AGE_CLEAN_FILE = INTERM_DATA_DIR / "age_distribution_by_municipality.csv"
 WEATHER_QUARTER_FILE = INTERM_DATA_DIR / "weather_quarterly.csv"
 
-# processed files for modeling
+# Processed files for modeling
 MASTER_DF_FILE = PROCESSED_DATA_DIR / "all_raw_features.csv"
+URBAN_CLUSTER_FILE = PROCESSED_DATA_DIR / "urban_cluster.csv"
 
-MODELS_DIR = PROJECT_ROOT / "models"
-URBAN_CLUSTER_DIR = MODELS_DIR / "urban_clusters"
-
-
-# project constants
-# eda
-COLUMN_MISSING_VALUES = "nan count"
-YEARS = [2020, 2021, 2022, 2023]
-
-# modeling
-RANDOM_SEED = 42
-SPLIT_SIZE = 0.2
-MAX_ITER = 4000
-ALPHAS = np.logspace(-6, 6, 40)
-# clustering
-
+# ==============================================================================
+# 2. COLUMN DEFINITIONS & FEATURE GROUPS
+# ==============================================================================
+# Single Columns
 MUNICIPALITY_COLUMN = "municipality"
+INCOME_COLUMN = "avg_income"
+POP_DENSITY_COLUMN = "people/km2"
+YEAR_COLUMN = "year"
+
+# Temporary Columns
+COLUMN_MISSING_VALUES = "nan count"
+
+# Time columns & values
+YEARS = [2020, 2021, 2022, 2023]
+TIME_COLUMNS = ["quarter_num", "quarter_ord"]
+
+# Feature lists
 SERVICES_COLUMNS = [
     "cinema",
     "college",
@@ -82,95 +90,71 @@ WEATHER_RAW_COLUMNS = [
 WEATHER_DAYS_COLUMNS = ["windy_days", "rainy_days", "sunny_days", "warm_days"]
 WEATHER_COLUMNS = WEATHER_RAW_COLUMNS + WEATHER_DAYS_COLUMNS
 
-INCOME_COLUMN = "avg_income"
-POP_DENSITY_COLUMN = "people/km2"
-TIME_COLUMNS = ["quarter_num", "quarter_ord"]
-YEAR_COLUMN = "year"
-
-# Sets of features
+# Composite feature sets
 URBAN_FEATURES = [POP_DENSITY_COLUMN, INCOME_COLUMN] + SERVICES_COLUMNS
-URBAN_PROFILE = [
-    MUNICIPALITY_COLUMN,
-    POP_DENSITY_COLUMN,
-    INCOME_COLUMN,
-    "cinema",
-    "college",
-    "courthouse",
-    "fire_station",
-    "hospital",
-    "kindergarten",
-    "library",
-    "mall",
-    "museum",
-    "pharmacy",
-    "police",
-    "post_office",
-    "school",
-    "station",
-    "theatre",
-    "university",
-]
+URBAN_PROFILE = [MUNICIPALITY_COLUMN] + URBAN_FEATURES
 
-# CLUSTERING CONFIGURATION
-CLUSTERING_CONFIGS = {
-    # Experiment 1: Urbanization Tiers
-    "urban": {
-        "features": URBAN_FEATURES,
-        "model_dir": URBAN_CLUSTER_DIR,  # Save in a subfolder
-        "experiments": [
-            {"n_clusters": k, "model_name": f"urban_kmeans_{k}.joblib"}
-            for k in range(3, 7)
-        ],
-        "cluster_profile": URBAN_PROFILE,
-        "model_name_pattern": "urban_kmeans_{k}.joblib",
-    },
-    "urban_cut": {
-        "features": URBAN_FEATURES,
-        "model_dir": URBAN_CLUSTER_DIR,  # Save in a subfolder
-        "experiments": [
-            {"n_clusters": k, "model_name": f"urban_cut_kmeans_{k}.joblib"}
-            for k in range(3, 7)
-        ],
-        "cluster_profile": URBAN_PROFILE,
-        "exclude": ["Porto", "Lisboa"],
-        "model_name_pattern": "urban_cut_kmeans_{k}.joblib",
-    },
-    # # Experiment 2: Housing Quality Groups
-    # "housing_quality_analysis": {
-    #     "features": HOUSING_FEATURES,
-    #     "model_dir": "../models/housing_clusters",
-    #     "experiments": [
-    #         {"n_clusters": k, "model_name": f"housing_kmeans_{k}.joblib"}
-    #         for k in range(2, 5) # Maybe fewer clusters make sense here
-    #     ]
-    # }
-}
+# ==============================================================================
+# 3. MODELING HYPERPARAMETERS & CONSTANTS
+# ==============================================================================
+RANDOM_SEED = 42
+SPLIT_SIZE = 0.2
+MAX_ITER = 4000
+ALPHAS = np.logspace(-6, 6, 40)
 
-# REGRESSION CONFIGURATION
-
-REGRESSION_FEATURES = {
-    # Numerical features to be Scaled
-    "numerical": [
-        "sqft_living",
-        "sqft_lot",
-        "bedrooms",
-        "bathrooms",
-        "yr_built",
-        "floors",
-        "view",
-        "condition",
-    ],
-    # Categorical features to be One-Hot Encoded.
-    # Logic: f"cluster_{key}" from CLUSTERING_CONFIG
-    "categorical": ["cluster_urban", "cluster_age"],
-}
-
-# MODEL SELECTION
 MODELS_TO_TRAIN = {
     "linear": "LinearRegression",
     "lasso": "Lasso",
     "ridge": "Ridge",
     "elasticnet": "ElasticNet",
     "gbm": "GradientBoostingRegressor",
-    # "xgb": "XGBoost" # Uncomment if you install xgboost
+    # "xgb": "XGBoost"
+}
+
+# ==============================================================================
+# 4. EXPERIMENT CONFIGURATIONS
+# ==============================================================================
+
+# K-Means Clustering Configurations
+CLUSTERING_CONFIGS = {
+    # Experiment 1: Urbanization Tiers (All Data)
+    "urban": {
+        "features": URBAN_FEATURES,
+        "model_dir": URBAN_CLUSTER_DIR,
+        "cluster_profile": URBAN_PROFILE,
+        "model_name_pattern": "urban_kmeans_{k}.joblib",
+        "experiments": [
+            {"n_clusters": k, "model_name": f"urban_kmeans_{k}.joblib"}
+            for k in range(3, 7)
+        ],
+    },
+    # Experiment 2: Urbanization Tiers (Removing Outliers: Porto/Lisboa)
+    "urban_cut": {
+        "features": URBAN_FEATURES,
+        "model_dir": URBAN_CLUSTER_DIR,
+        "cluster_profile": URBAN_PROFILE,
+        "model_name_pattern": "urban_cut_kmeans_{k}.joblib",
+        "exclude": ["Porto", "Lisboa"],
+        "experiments": [
+            {"n_clusters": k, "model_name": f"urban_cut_kmeans_{k}.joblib"}
+            for k in range(3, 5)
+        ],
+    },
+}
+
+CLUSTER_LABELS = {
+    "cluster_urban": {
+        0: "Urban",
+        1: "Porto",
+        2: "Suburbs",
+        3: "Rural",
+        4: "Lisbon",
+        5: "Historical Hub",
+    }
+}
+
+# Regression Feature Selection
+REGRESSION_FEATURES = {
+    "numerical": [""],
+    "categorical": ["cluster_urban", "cluster_age"],
 }

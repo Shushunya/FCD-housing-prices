@@ -4,11 +4,19 @@ from typing import List, Optional, Union
 
 import pandas as pd
 
-# Configure logging
-logging.basicConfig(
-    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
-)
+PRESENTATION_MODE = True
+
+# Configure Logging
+log_level = logging.CRITICAL if PRESENTATION_MODE else logging.INFO
+
+logging.basicConfig(level=log_level, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
+
+# # Configure logging
+# logging.basicConfig(
+#     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+# )
+# logger = logging.getLogger(__name__)
 
 
 class DataLoader:
