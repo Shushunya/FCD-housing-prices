@@ -136,7 +136,7 @@ CLUSTERING_CONFIGS = {
         "exclude": ["Porto", "Lisboa"],
         "experiments": [
             {"n_clusters": k, "model_name": f"urban_cut_kmeans_{k}.joblib"}
-            for k in range(3, 7)
+            for k in range(3, 5)
         ],
     },
 }
