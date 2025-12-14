@@ -1,0 +1,32 @@
+
+MODELING PIPELINE SUMMARY
+================================================================================
+
+Best Model: GBM
+Description: Gradient Boosting
+
+Cross-Validation Results (5-Fold GroupKFold):
+  Test R²:    0.6255 (±0.0890)
+  Test RMSE:  0.3398
+  Test MAE:   0.2605
+  Train R²:   0.9580
+
+Overfitting Analysis:
+  Gap (Train R² - Test R²): 0.3325
+  Status: Overfitting
+
+Features Used:
+  Numerical:    27
+  Categorical:  6
+  Total:        33
+
+Data:
+  Training samples: 3,961
+  Municipality groups: 230
+  Cross-validation folds: 5
+
+Model Artifact: C:\Users\gonca\Documents\housing-prices\FCD-housing-prices\models\gbm_final_model.joblib
+Results CSV: C:\Users\gonca\Documents\housing-prices\FCD-housing-prices\models\cv_results.csv
+
+Note: Final model trained on full dataset for production deployment.
+      Performance estimates above are from CV (not re-evaluated on training data).
