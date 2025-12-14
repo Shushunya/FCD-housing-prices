@@ -40,6 +40,7 @@ WEATHER_QUARTER_FILE = INTERM_DATA_DIR / "weather_quarterly.csv"
 
 # Processed files for modeling
 MASTER_DF_FILE = PROCESSED_DATA_DIR / "all_raw_features.csv"
+URBAN_CLUSTER_FILE = PROCESSED_DATA_DIR / "urban_cluster.csv"
 
 # ==============================================================================
 # 2. COLUMN DEFINITIONS & FEATURE GROUPS
@@ -139,6 +140,17 @@ CLUSTERING_CONFIGS = {
             for k in range(3, 5)
         ],
     },
+}
+
+CLUSTER_LABELS = {
+    "cluster_urban": {
+        0: "Urban",
+        1: "Porto",
+        2: "Suburbs",
+        3: "Rural",
+        4: "Lisbon",
+        5: "Historical Hub",
+    }
 }
 
 # Regression Feature Selection
