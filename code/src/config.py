@@ -78,7 +78,7 @@ SERVICES_COLUMNS = [
     "university",
 ]
 
-AGE_COLUMNS = ["< 5", "6 - 19", "20 - 34", "35 - 54", "55 - 64", "> 65"]
+AGE_COLUMNS = ["< 5", "5 - 19", "20 - 34", "35 - 54", "55 - 64", "> 65"]
 
 WEATHER_RAW_COLUMNS = [
     "total_sunshine_h",
