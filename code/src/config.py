@@ -144,11 +144,11 @@ CLUSTERING_CONFIGS = {
 
 CLUSTER_LABELS = {
     "cluster_urban": {
-        0: "Urban",
-        1: "Porto",
-        2: "Suburbs",
-        3: "Rural",
-        4: "Lisbon",
+        0: "Rural",
+        1: "Suburbs",
+        2: "Lisbon",
+        3: "Porto",
+        4: "Urban",
         5: "Historical Hub",
     }
 }
