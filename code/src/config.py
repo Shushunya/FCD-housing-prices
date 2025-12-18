@@ -93,6 +93,10 @@ WEATHER_COLUMNS = WEATHER_RAW_COLUMNS + WEATHER_DAYS_COLUMNS
 # Composite feature sets
 URBAN_FEATURES = [POP_DENSITY_COLUMN, INCOME_COLUMN] + SERVICES_COLUMNS
 URBAN_PROFILE = [MUNICIPALITY_COLUMN] + URBAN_FEATURES
+NUMERICAL_FEATURES = (
+    WEATHER_COLUMNS + SERVICES_COLUMNS + [INCOME_COLUMN, POP_DENSITY_COLUMN]
+)
+CATEGORICAL_FEATURES = AGE_COLUMNS + ["cluster_urban"]
 
 # ==============================================================================
 # 3. MODELING HYPERPARAMETERS & CONSTANTS
@@ -155,6 +159,6 @@ CLUSTER_LABELS = {
 
 # Regression Feature Selection
 REGRESSION_FEATURES = {
-    "numerical": [""],
-    "categorical": ["cluster_urban", "cluster_age"],
+    "numerical": NUMERICAL_FEATURES,
+    "categorical": CATEGORICAL_FEATURES,
 }
