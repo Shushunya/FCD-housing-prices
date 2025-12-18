@@ -1,6 +1,6 @@
 import logging
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Tuple, Union
+from typing import Optional, Tuple, Union
 
 import joblib
 import matplotlib.pyplot as plt
@@ -17,7 +17,6 @@ from src.config import (
     MASTER_DF_FILE,
     MODELS_DIR,
     PROCESSED_DATA_DIR,
-    URBAN_CLUSTER_FILE,
 )
 
 PRESENTATION_MODE = True
@@ -118,7 +117,6 @@ class ClusteringEngine:
             wcss.append(km.inertia_)
             sil_scores.append(silhouette_score(self.data_scaled, labels))
 
-        # --- Plotting ---
         fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 5))
 
         # Elbow Plot
@@ -310,33 +308,24 @@ class ClusteringEngine:
             raise FileNotFoundError(f"Master file not found at {target_path}")
 
         try:
-            # 1. Load the Master Dataset
-            # We assume this file corresponds to the source of subset_df
             logger.info(f"Loading master dataset from {target_path}...")
             master_df = pd.read_csv(target_path)
 
-            # 2. Validation
-            # Ensure the indices in our subset actually exist in the master file
             if not subset_df.index.isin(master_df.index).all():
                 raise IndexError(
                     "Indices in the subset do not match the master dataset. Did you reset_index() somewhere?"
                 )
 
-            # 3. Update/Create the Column
-            # If column doesn't exist, create it with NaNs (so we don't assume 0 for non-clustered rows)
             if column_name not in master_df.columns:
                 master_df[column_name] = np.nan
 
-            # 4. Map Labels to Correct Rows
-            # This is the magic: .loc uses the Index to match rows, not the position.
             logger.info(
                 f"Updating {len(self.labels)} rows in column '{column_name}'..."
             )
             master_df.loc[subset_df.index, column_name] = self.labels
 
-            # 5. Save Overwrite
             master_df.to_csv(target_path, index=False)
-            logger.info(f"Success! Master dataset updated.")
+            logger.info(f"Master dataset updated.")
 
         except Exception as e:
             logger.error(f"Failed to update master dataset: {e}")

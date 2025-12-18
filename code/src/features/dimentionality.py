@@ -41,10 +41,10 @@ class UrbanizationPCA:
                 raise ValueError(f"Missing features in dataset: {missing_features}")
 
             self.feature_names = features
-            # logger.info(f"Successfully loaded {len(df)} rows from {filepath}")
+            logger.info(f"Successfully loaded {len(df)} rows from {filepath}")
             return df[features]
         except Exception as e:
-            # logger.error(f"Error loading data: {e}")
+            logger.error(f"Error loading data: {e}")
             raise
 
     def run_pca(self, data: pd.DataFrame) -> pd.DataFrame:
@@ -63,10 +63,10 @@ class UrbanizationPCA:
             cols = [f"PC{i+1}" for i in range(self.n_components)]
             self.pca_result = pd.DataFrame(components, columns=cols)
 
-            # logger.info("PCA computation completed successfully.")
+            logger.info("PCA computation completed successfully.")
             return self.pca_result
         except Exception as e:
-            # logger.error(f"PCA computation failed: {e}")
+            logger.error(f"PCA computation failed: {e}")
             raise
 
     def get_loadings(self, n_display: int = 10) -> pd.DataFrame:
@@ -118,9 +118,7 @@ class UrbanizationPCA:
             ax.set_title(f"Composition of {pc_col}", fontsize=14, pad=15)
             ax.set_xlabel("Feature Loading (Correlation)", fontsize=10)
             ax.axvline(0, color="black", linewidth=0.8, linestyle="--")
-            # ax.grid(axis="x", linestyle="--", alpha=0.3)
 
-            # Optional: Add text summary on the plot
             stats = self.get_variance_stats()
             var_txt = f"{stats.get(f'pc{i+1}_var', 0):.1f}% Variance"
             ax.text(
