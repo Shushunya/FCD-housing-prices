@@ -32,41 +32,39 @@ Cluster ID,Cluster,Model,Feature,Importance
 0,Rural,elasticnet,35 - 54,0.00013563600804950086
 0,Rural,elasticnet,55 - 64,0.00014323609818734943
 0,Rural,elasticnet,> 65,3.908256612767784e-05
-0,Rural,elasticnet,cluster_urban,0.0
-0,Rural,gbm,total_sunshine_h,0.005111814536068555
-0,Rural,gbm,mean_sunshine_h,0.004935525378742062
-0,Rural,gbm,windspeed_mean_kmh,0.03251442818582526
-0,Rural,gbm,total_precipitation_mm,0.005024994552300312
-0,Rural,gbm,mean_precipitation_mm,0.004370356408251887
-0,Rural,gbm,windy_days,0.013522918347479583
-0,Rural,gbm,rainy_days,0.010930474624976065
-0,Rural,gbm,sunny_days,0.01228551923493375
-0,Rural,gbm,warm_days,0.02965015415428319
-0,Rural,gbm,cinema,0.005976503025495951
-0,Rural,gbm,college,0.00027735063994904546
-0,Rural,gbm,courthouse,0.019762682241663155
-0,Rural,gbm,fire_station,0.011105191509375334
-0,Rural,gbm,hospital,0.0052931602817204325
-0,Rural,gbm,kindergarten,0.009816498117134172
-0,Rural,gbm,library,0.009431715965650265
-0,Rural,gbm,mall,0.020668319762798065
-0,Rural,gbm,museum,0.013094802085543766
-0,Rural,gbm,pharmacy,0.023021273316855755
-0,Rural,gbm,police,0.023701662922874293
-0,Rural,gbm,post_office,0.030856036330002154
-0,Rural,gbm,school,0.03742808009392246
-0,Rural,gbm,station,0.022638622407216258
-0,Rural,gbm,theatre,0.012000470329141633
-0,Rural,gbm,university,0.0033891055046743313
-0,Rural,gbm,avg_income,0.03524582415161736
-0,Rural,gbm,people/km2,0.102388586512584
-0,Rural,gbm,< 5,0.09095557796698012
-0,Rural,gbm,6 - 19,0.18705229334372012
-0,Rural,gbm,20 - 34,0.08434092532896355
-0,Rural,gbm,35 - 54,0.05037713710721384
-0,Rural,gbm,55 - 64,0.042245907830628704
-0,Rural,gbm,> 65,0.040586087801414525
-0,Rural,gbm,cluster_urban,0.0
+0,Rural,gbm,total_sunshine_h,0.009198497649147522
+0,Rural,gbm,mean_sunshine_h,0.005624083598974905
+0,Rural,gbm,windspeed_mean_kmh,0.030490311593265543
+0,Rural,gbm,total_precipitation_mm,0.005355668776881534
+0,Rural,gbm,mean_precipitation_mm,0.004873633971961021
+0,Rural,gbm,windy_days,0.012851220120189471
+0,Rural,gbm,rainy_days,0.013121648711698158
+0,Rural,gbm,sunny_days,0.006020941199115353
+0,Rural,gbm,warm_days,0.03985857853259479
+0,Rural,gbm,cinema,0.011728450942730681
+0,Rural,gbm,college,0.00010090399576273302
+0,Rural,gbm,courthouse,0.019401011239998017
+0,Rural,gbm,fire_station,0.011289642739534311
+0,Rural,gbm,hospital,0.009028187355768677
+0,Rural,gbm,kindergarten,0.020683444654676433
+0,Rural,gbm,library,0.0036646486692477388
+0,Rural,gbm,mall,0.013820976150916717
+0,Rural,gbm,museum,0.011535442888151868
+0,Rural,gbm,pharmacy,0.024368917216769953
+0,Rural,gbm,police,0.01813927714652871
+0,Rural,gbm,post_office,0.010008831402165774
+0,Rural,gbm,school,0.036257519084505946
+0,Rural,gbm,station,0.01728039335306815
+0,Rural,gbm,theatre,0.013706930416809182
+0,Rural,gbm,university,0.004937249128389378
+0,Rural,gbm,avg_income,0.028010938609388445
+0,Rural,gbm,people/km2,0.0964116822195891
+0,Rural,gbm,< 5,0.10428962289902115
+0,Rural,gbm,6 - 19,0.12230225517787753
+0,Rural,gbm,20 - 34,0.06256200200820801
+0,Rural,gbm,35 - 54,0.09065790772102376
+0,Rural,gbm,55 - 64,0.06964366867902316
+0,Rural,gbm,> 65,0.0727755121470162
 1,Suburbs,elasticnet,total_sunshine_h,0.0
 1,Suburbs,elasticnet,mean_sunshine_h,0.0
 1,Suburbs,elasticnet,windspeed_mean_kmh,0.0
@@ -100,41 +98,39 @@ Cluster ID,Cluster,Model,Feature,Importance
 1,Suburbs,elasticnet,35 - 54,3.133935600259353e-05
 1,Suburbs,elasticnet,55 - 64,1.3726623343367133e-05
 1,Suburbs,elasticnet,> 65,4.2898346799667544e-05
-1,Suburbs,elasticnet,cluster_urban,0.0
-1,Suburbs,gbm,total_sunshine_h,0.001946919788458016
-1,Suburbs,gbm,mean_sunshine_h,0.002898874945141992
-1,Suburbs,gbm,windspeed_mean_kmh,0.07964687549198193
-1,Suburbs,gbm,total_precipitation_mm,0.011617567474161584
-1,Suburbs,gbm,mean_precipitation_mm,0.008343966313578154
-1,Suburbs,gbm,windy_days,0.0021801735057103678
-1,Suburbs,gbm,rainy_days,0.0033362921746776042
-1,Suburbs,gbm,sunny_days,0.0034574722587959166
-1,Suburbs,gbm,warm_days,0.005711421557536167
-1,Suburbs,gbm,cinema,0.006048009458395796
-1,Suburbs,gbm,college,0.013535100764751298
-1,Suburbs,gbm,courthouse,0.027086985833466096
-1,Suburbs,gbm,fire_station,0.03833376671226127
-1,Suburbs,gbm,hospital,0.0008112915869382534
-1,Suburbs,gbm,kindergarten,0.029630468699038112
-1,Suburbs,gbm,library,0.02882457899153613
-1,Suburbs,gbm,mall,0.0012307641417016913
-1,Suburbs,gbm,museum,0.0283340537320898
-1,Suburbs,gbm,pharmacy,0.010871067704365932
-1,Suburbs,gbm,police,0.0356506301007971
-1,Suburbs,gbm,post_office,0.01561656868506408
-1,Suburbs,gbm,school,0.015493976246028116
-1,Suburbs,gbm,station,0.015905149637528614
-1,Suburbs,gbm,theatre,0.0014848790442735973
-1,Suburbs,gbm,university,0.0036875161325066724
-1,Suburbs,gbm,avg_income,0.06702354527499102
-1,Suburbs,gbm,people/km2,0.11262511552779329
-1,Suburbs,gbm,< 5,0.009996453371694747
-1,Suburbs,gbm,6 - 19,0.05519255244044806
-1,Suburbs,gbm,20 - 34,0.06850583175760157
-1,Suburbs,gbm,35 - 54,0.04350510675890396
-1,Suburbs,gbm,55 - 64,0.01797074980751694
-1,Suburbs,gbm,> 65,0.23349627408026621
-1,Suburbs,gbm,cluster_urban,0.0
+1,Suburbs,gbm,total_sunshine_h,0.002310111681356148
+1,Suburbs,gbm,mean_sunshine_h,0.002556068525052203
+1,Suburbs,gbm,windspeed_mean_kmh,0.09599254222586719
+1,Suburbs,gbm,total_precipitation_mm,0.0025815101705009757
+1,Suburbs,gbm,mean_precipitation_mm,0.007041221619828386
+1,Suburbs,gbm,windy_days,0.00033966266116556236
+1,Suburbs,gbm,rainy_days,0.0024070198660431836
+1,Suburbs,gbm,sunny_days,0.004746620575619723
+1,Suburbs,gbm,warm_days,0.00432779298415426
+1,Suburbs,gbm,cinema,0.0017681956534269139
+1,Suburbs,gbm,college,0.0068258729862255745
+1,Suburbs,gbm,courthouse,0.061262950070956904
+1,Suburbs,gbm,fire_station,0.019937708801617483
+1,Suburbs,gbm,hospital,0.04386250193986682
+1,Suburbs,gbm,kindergarten,0.00864071773018494
+1,Suburbs,gbm,library,0.011761038749159191
+1,Suburbs,gbm,mall,0.023043440190140072
+1,Suburbs,gbm,museum,0.008731438800996113
+1,Suburbs,gbm,pharmacy,0.036836751948635595
+1,Suburbs,gbm,police,0.03274489087710638
+1,Suburbs,gbm,post_office,0.015061502706632946
+1,Suburbs,gbm,school,0.01635964436732466
+1,Suburbs,gbm,station,0.08473698400680622
+1,Suburbs,gbm,theatre,0.012229269309531735
+1,Suburbs,gbm,university,0.005633447346068754
+1,Suburbs,gbm,avg_income,0.07025602389072559
+1,Suburbs,gbm,people/km2,0.14885541480778527
+1,Suburbs,gbm,< 5,0.03370843017137653
+1,Suburbs,gbm,6 - 19,0.04162546012571072
+1,Suburbs,gbm,20 - 34,0.02784283854362022
+1,Suburbs,gbm,35 - 54,0.03266046753235526
+1,Suburbs,gbm,55 - 64,0.027977329234389083
+1,Suburbs,gbm,> 65,0.10533512989976933
 4,Urban,elasticnet,total_sunshine_h,0.0
 4,Urban,elasticnet,mean_sunshine_h,0.0
 4,Urban,elasticnet,windspeed_mean_kmh,0.052862973143724575
@@ -168,38 +164,36 @@ Cluster ID,Cluster,Model,Feature,Importance
 4,Urban,elasticnet,35 - 54,5.398742092505054e-05
 4,Urban,elasticnet,55 - 64,4.273968287640417e-05
 4,Urban,elasticnet,> 65,3.7963475020436264e-05
-4,Urban,elasticnet,cluster_urban,0.0
-4,Urban,gbm,total_sunshine_h,0.007241667752898096
-4,Urban,gbm,mean_sunshine_h,0.0029215033647762728
-4,Urban,gbm,windspeed_mean_kmh,0.03792447467862127
-4,Urban,gbm,total_precipitation_mm,0.0018958220898382552
-4,Urban,gbm,mean_precipitation_mm,0.005137830775790648
-4,Urban,gbm,windy_days,0.0009230364750317006
-4,Urban,gbm,rainy_days,0.002994449544456777
-4,Urban,gbm,sunny_days,0.0031877949176413248
-4,Urban,gbm,warm_days,0.0028046547535447025
-4,Urban,gbm,cinema,0.008879650110133024
-4,Urban,gbm,college,0.0013635345755061534
-4,Urban,gbm,courthouse,0.004644306998902375
-4,Urban,gbm,fire_station,0.01878801732677117
-4,Urban,gbm,hospital,0.016065154793893834
-4,Urban,gbm,kindergarten,0.03247048960163233
-4,Urban,gbm,library,0.01506146258255777
-4,Urban,gbm,mall,0.0427044072373269
-4,Urban,gbm,museum,0.012842003299144283
-4,Urban,gbm,pharmacy,0.030273044637891336
-4,Urban,gbm,police,0.023069184310242356
-4,Urban,gbm,post_office,0.039549221496363474
-4,Urban,gbm,school,0.05960826798234306
-4,Urban,gbm,station,0.04778117653880431
-4,Urban,gbm,theatre,0.009852729571260523
-4,Urban,gbm,university,0.0091006259114594
-4,Urban,gbm,avg_income,0.05225123590002393
-4,Urban,gbm,people/km2,0.12575885980651588
-4,Urban,gbm,< 5,0.08397783778506293
-4,Urban,gbm,6 - 19,0.07824706540860558
-4,Urban,gbm,20 - 34,0.08145093001365579
-4,Urban,gbm,35 - 54,0.04365420418027759
-4,Urban,gbm,55 - 64,0.02227026902989672
-4,Urban,gbm,> 65,0.07530508654913033
-4,Urban,gbm,cluster_urban,0.0
+4,Urban,gbm,total_sunshine_h,0.002006721298413426
+4,Urban,gbm,mean_sunshine_h,0.0031443912021875578
+4,Urban,gbm,windspeed_mean_kmh,0.03013507671152079
+4,Urban,gbm,total_precipitation_mm,0.002247951781686402
+4,Urban,gbm,mean_precipitation_mm,0.0026061008384169948
+4,Urban,gbm,windy_days,0.000687830730668711
+4,Urban,gbm,rainy_days,0.013793946048314578
+4,Urban,gbm,sunny_days,0.0019711576366561647
+4,Urban,gbm,warm_days,0.0076333467210119126
+4,Urban,gbm,cinema,0.021271612543912462
+4,Urban,gbm,college,0.0013965145426593209
+4,Urban,gbm,courthouse,0.02533287338760674
+4,Urban,gbm,fire_station,0.02907433570874187
+4,Urban,gbm,hospital,0.003131298891616655
+4,Urban,gbm,kindergarten,0.10121547775522806
+4,Urban,gbm,library,0.026540932379136378
+4,Urban,gbm,mall,0.09137580374058454
+4,Urban,gbm,museum,0.017846017771817435
+4,Urban,gbm,pharmacy,0.024375446832699193
+4,Urban,gbm,police,0.024669981440994602
+4,Urban,gbm,post_office,0.010502990345789482
+4,Urban,gbm,school,0.01683201551071963
+4,Urban,gbm,station,0.01040202379813802
+4,Urban,gbm,theatre,0.01207495581062141
+4,Urban,gbm,university,0.05936969516485886
+4,Urban,gbm,avg_income,0.053876039012993156
+4,Urban,gbm,people/km2,0.030906152297153478
+4,Urban,gbm,< 5,0.14414930964268216
+4,Urban,gbm,6 - 19,0.0702479330200653
+4,Urban,gbm,20 - 34,0.06481440390089294
+4,Urban,gbm,35 - 54,0.04978149113919485
+4,Urban,gbm,55 - 64,0.03194077362244649
+4,Urban,gbm,> 65,0.014645398770570441
