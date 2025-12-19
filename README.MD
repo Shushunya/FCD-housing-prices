@@ -20,6 +20,7 @@ The goal of this project is to analyze the factors influencing house prices in P
 
 ## Project Structure
 
+```text
 house-pricing-project/
 ├── data/
 │   ├── api/                # Data fetched from APIs (Weather, Maps)
@@ -46,7 +47,7 @@ house-pricing-project/
 ├── .gitignore              # Files to be excluded from version control
 ├── LICENSE.md              # Project license
 └── README.md               # Project documentation
-
+```
 ---
 
 ## Getting Started
