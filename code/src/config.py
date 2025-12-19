@@ -38,9 +38,11 @@ DENSITY_CLEAN_FILE = INTERM_DATA_DIR / "density_by_municipality.csv"
 AGE_CLEAN_FILE = INTERM_DATA_DIR / "age_distribution_by_municipality.csv"
 AGE_BUCKET_FILE = INTERM_DATA_DIR / "age_groupped.csv"
 WEATHER_QUARTER_FILE = INTERM_DATA_DIR / "weather_quarterly.csv"
+WEATHER_Q_FEATURES_FILE = INTERM_DATA_DIR / "weather_quarterly_features.csv"
 
 # Processed files for modeling
-MASTER_DF_FILE = PROCESSED_DATA_DIR / "all_raw_features.csv"
+MASTER_DF_FILE = PROCESSED_DATA_DIR / "raw_features.csv"
+MASTER_DF_EXTENDED_FILE = PROCESSED_DATA_DIR / "master_dataset.csv"
 URBAN_CLUSTER_FILE = PROCESSED_DATA_DIR / "urban_cluster.csv"
 
 # ==============================================================================
