@@ -36,6 +36,7 @@ INCOME_CLEAN_TOTAL = INTERM_DATA_DIR / "total_average_income_by_municipality.csv
 INCOME_CLEAN_EDU = INTERM_DATA_DIR / "average_income_by_education.csv"
 DENSITY_CLEAN_FILE = INTERM_DATA_DIR / "density_by_municipality.csv"
 AGE_CLEAN_FILE = INTERM_DATA_DIR / "age_distribution_by_municipality.csv"
+AGE_BUCKET_FILE = INTERM_DATA_DIR / "age_groupped.csv"
 WEATHER_QUARTER_FILE = INTERM_DATA_DIR / "weather_quarterly.csv"
 
 # Processed files for modeling
