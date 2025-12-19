@@ -22,24 +22,24 @@ The goal of this project is to analyze the factors influencing house prices in P
 
 ```text
 house-pricing-project/
+├── code/
+│   ├── notebooks/          # Exploratory and experimental notebooks
+|   |   ├── clustering/
+|   |   ├── eda/
+|   |   └── modeling/
+│   ├── src/                # Modular Python scripts
+│   │   ├── data/           # Data processing scripts
+│   │   ├── features/       # PCA
+|   |   ├── models/         # Clustering logic
+│   │   ├── __init__.py
+│   │   └── config.py       # Global configurations and API keys
+│   └── main.ipynb
 ├── data/
 │   ├── api/                # Data fetched from APIs (Weather, Maps)
 │   ├── interm/             # Intermediate datasets (cleaned/merged)
 │   ├── processed/          # Final datasets ready for modeling
 │   └── raw/                # Original immutable datasets
 ├── models/                 # Serialized model files
-│   └── housing_lin_reg.pkl # Saved Linear Regression model
-├── code/
-│   ├── notebooks/          # Exploratory and experimental notebooks
-│   ├── src/                # Modular Python scripts
-│   │   ├── data/           # Data processing scripts
-│   │   ├── features/       # Feature engineering logic
-│   │   ├── __init__.py
-│   │   └── config.py       # Global configurations and API keys
-│   ├── clustering.ipynb    # Geospatial and market clustering analysis
-│   ├── eda.ipynb           # Initial data exploration & visualization
-│   ├── main.ipynb          # Project entry point/workflow orchestration
-│   └── modeling.ipynb      # Model training and evaluation
 ├── final_report.ipynb      # Final presentation of results and insights
 ├── pyproject.toml          # Project metadata and dependencies
 ├── uv.lock                 # Lockfile for reproducible environment
